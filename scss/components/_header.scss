@@ -7,7 +7,7 @@
 	width: 100vw;
 	height: auto;
 	background: $site-color01;
-	padding: 10px 15px 10px;
+	padding: 15px 15px 0px;
 	box-sizing: border-box;
 	transition: padding .3s;
 	@include min(768){
@@ -53,12 +53,10 @@
 		}
 	}
 	.logo{
-		max-width: 130px;
-		@include min(768){
-			min-width: 150px;
-		}
+		display: inline-flex;
+		max-width: 100px;
+		@include min(768){min-width: 150px;}
 		img{vertical-align: inherit;}
-		
 	}
 	&__popArea{//上部
 		width: 100%;

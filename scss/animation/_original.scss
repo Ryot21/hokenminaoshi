@@ -119,38 +119,3 @@
         }
     }
 }
-
-
-
-/* ---------------------------------------
-飯能LP
---------------------------------------- */
-.title{
--webkit-animation: wind 8s ease 0s infinite;
-animation: wind 8s ease 0s infinite;
-}
-@keyframes wind {
-0% { transform: translateY(0) }
-33.33333% { transform: translateY(10px) }
-66.66667% { transform: translateY(0) }
-100% { transform: translateY(0) }
-}
-@-webkit-keyframes wind {
-0% { -webkit-transform: translateY(0) }
-33.33333% { -webkit-transform: translateY(10px) }
-66.66667% { -webkit-transform: translateY(0) }
-100% { -webkit-transform: translateY(0) }
-}
-.ha  {animation-delay: 2s;}
-.n   {animation-delay: 4s;}
-.no  {animation-delay: 6s;}
-.u   {animation-delay: 8s;}
-.de  {animation-delay: 2s;}
-.ten {animation-delay: 4s;}
-.shi {animation-delay: 6s;}
-.ze  {animation-delay: 8s;}
-.n2  {animation-delay: 2s;}
-.to  {animation-delay: 4s;}
-.ku  {animation-delay: 6s;}
-.ra  {animation-delay: 8s;}
-.su  {animation-delay: 2s;}

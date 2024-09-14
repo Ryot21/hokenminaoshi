@@ -197,16 +197,6 @@
 					}
 				}
 			}
-			// ファーストビュー > ロゴ
-			&.-f-logo_s{
-				@include max(768){
-					top: 8%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					width: 60%;
-					z-index: 1;
-				}
-			}
 
 			// コンテンツ関係
 			&.-contents-body{//.c-contents-innerと併用
@@ -398,8 +388,62 @@
 					}
 				}
 			}
+			&.-contents04{
+				&-title{
+					top: 7%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 100%;
+				}
+			}
+				&.-flowItem{
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 100%;
+					&.-flowItem01{
+						top: 15%;
+						@include min(768){top: 22%;}
+					}
+					&.-flowItem02{
+						top: 32%;
+						@include min(768){top: 38%;}
+					}
+					&.-flowItem03{
+						top: 49.5%;
+						@include min(768){top: 54%;}
+					}
+					&.-flowItem04{
+						top: 67.5%;
+						@include min(768){top: 70%;}
+					}
+					&.-flowItem05{
+						top: 86%;
+						@include min(768){top: 86%;}
+					}
 
+					.selif{
+						position: relative;
+						width: 23%;
+						@include min(768){width: 26%;}
+						&::after{
+							position: absolute;
+							top: 32%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							color: $site-color05;
+							font-size: clamp(1.4rem, 2vw, 2rem);
+							font-family: $f-e04;
+							font-weight: bold;
+							letter-spacing: .2rem;
+						}
+						&.-no1{&::after{content: "Flow01";}}
+						&.-no2{&::after{content: "Flow02";}}
+						&.-no3{&::after{content: "Flow03";}}
+						&.-no4{&::after{content: "Flow04";}}
+						&.-no5{&::after{content: "Flow05";}}
 
+					}
+				}
 
 		}
 	}

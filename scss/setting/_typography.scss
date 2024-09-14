@@ -11,6 +11,10 @@
     font-family: "e-font03";
     src: url("../fonts/en/EBGaramond-VariableFont_wght.ttf") format("truetype");
 }
+@font-face {// 英文フォント04
+    font-family: "e-font04";
+    src: url("../fonts/en/Roboto-Regular.ttf") format("truetype");
+}
 @font-face {// 明朝フォント
     font-family: "mincho-font01";
     src: url("../fonts/mincho/ShipporiMincho-Regular.ttf")   format("truetype");
@@ -31,6 +35,7 @@ $f-gothic:    gothic-font01; // ゴシック体01
 $f-e01:       e-font01;      // 英文フォント01
 $f-e02:       e-font02;      // 英文フォント02
 $f-e03:       e-font03;      // 英文フォント03
+$f-e04:       e-font04;      // 英文フォント04
 // $f-d01:       d-font01;      // デザインフォント01
 
 // font-weight
@@ -42,8 +47,9 @@ $f-b: bold;
 h1,h2,h3,h4,h5,h6,p,a,span,label,button{
 	color: $main-color--b;
 	// font-family: $f-mincho;
-    font-family: $f-gothic;
-    font-weight: $f-n;
+    // font-family: $f-gothic;
+    font-family: $f-e04;
+    font-weight: $f-b;
     font-style: normal;
     // text-wrap: balance;
     // word-break: auto-phrase;
@@ -124,6 +130,7 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
     &.-f-En01{font-family: e-font01;}         // BebasNeue
     &.-f-En02{font-family: e-font02;}         // impact
     &.-f-En03{font-family: e-font03;}         // garamond
+    &.-f-En04{font-family: e-font04;}         // Roboto
 
     // 色
     &.-white{color: $main-color--w !important;}
@@ -215,6 +222,7 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
         &.-s14{@include max(768){font-size: 1.4rem;}}
         &.-s16{@include max(768){font-size: 1.6rem;}}
         &.-s18{@include max(768){font-size: 1.8rem;}}
+        &.-s20{@include max(768){font-size: 2rem;}}
 }
 
 // ナビゲーション

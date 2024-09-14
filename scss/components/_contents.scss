@@ -390,10 +390,11 @@
 			}
 			&.-contents04{
 				&-title{
-					top: 7%;
+					top: 4%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
+					@include min(768){top: 9%;}
 				}
 			}
 				&.-flowItem{
@@ -444,7 +445,6 @@
 
 					}
 				}
-
 		}
 	}
 

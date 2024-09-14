@@ -399,7 +399,7 @@ h1.s-L, h2.s-L, h3.s-L, h4.s-L, h5.s-L, h6.s-L, p.s-L, a.s-L, span.s-L, label.s-
   }
 }
 h1.s-LL, h2.s-LL, h3.s-LL, h4.s-LL, h5.s-LL, h6.s-LL, p.s-LL, a.s-LL, span.s-LL, label.s-LL, button.s-LL {
-  font-size: 2.1rem;
+  font-size: 3rem;
 }
 @media (width >= 768px) {
   h1.s-LL, h2.s-LL, h3.s-LL, h4.s-LL, h5.s-LL, h6.s-LL, p.s-LL, a.s-LL, span.s-LL, label.s-LL, button.s-LL {
@@ -4610,10 +4610,15 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents04-title {
-  top: 7%;
+  top: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-contents04-title {
+    top: 9%;
+  }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem {
   left: 50%;
@@ -6127,7 +6132,7 @@ a {
   }
 }
 .swiper .swiper-button-prev::after, .swiper .swiper-button-next::after {
-  color: #ebebeb !important;
+  color: #636363 !important;
 }
 .swiper .swiper-button-prev.-delta::after, .swiper .swiper-button-next.-delta::after {
   background-repeat: no-repeat;

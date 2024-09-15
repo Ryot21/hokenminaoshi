@@ -2833,6 +2833,13 @@ button.swiper-pagination-bullet {
 }
 
 @media (768px >= width) {
+  .w100s {
+    width: 100% !important;
+    margin: auto;
+  }
+}
+
+@media (768px >= width) {
   .w95s {
     width: 95% !important;
     margin: auto;
@@ -2981,7 +2988,7 @@ button.swiper-pagination-bullet {
   border-radius: 20px 0 0 20px;
 }
 .c-img.-shadow {
-  box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.34);
+  filter: drop-shadow(1px 2px 3px #3b3b3b);
 }
 
 .box-r {
@@ -7672,7 +7679,6 @@ a {
   }
   50% {
     transform: translateY(0px) scale(1.1);
-    opacity: 0.8;
   }
   100% {
     transform: translateY(0px) scale(1);
@@ -7689,7 +7695,6 @@ a {
   }
   50% {
     transform: translateY(0px) scale(0.9);
-    opacity: 0.8;
   }
   100% {
     transform: translateY(0px) scale(1);

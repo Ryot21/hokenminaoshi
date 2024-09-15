@@ -83,6 +83,12 @@
     width: 30% !important;
     margin: auto;
 }
+.w100s{
+    @include max(768){
+        width: 100% !important;
+        margin: auto;
+    }
+}
 .w95s{
     @include max(768){
         width: 95% !important;
@@ -219,7 +225,8 @@
     }
     // シャドウ
     &.-shadow{
-        box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 34%);
+        // box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 34%);
+        filter: drop-shadow(1px 2px 3px $main-color--b);
     }
 }
 .box-r{

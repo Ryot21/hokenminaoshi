@@ -34,31 +34,21 @@
 
     <!-- //Global site tag (gtag.js) - Google Analytics -->
 </head>
-<body class="p-top js_humburgerClose">
+<body class="p-top">
     <header id="header" class="c-header">
         <h1 class="logo"><img src="images/logo/impreme-logo-b.png" alt="株式会社インプレーム"></h1>
     </header>
-    <!-- 固定アイテム / TOP -->
-    <a href="#header" class="c-btn-top -center a-fadeUp -sp25">TOPへ</a>
 
-    <!-- ハンバーガーメニュー -->
-    <!-- <nav class="c-hnav a-scroll-on">
-		<input id="c-hnav__checkbox" class="c-hnav__cheakbox" type="checkbox"/>
-		<label class="c-hnav__button" for="c-hnav__checkbox">
-            <span></span>
-        </label>
-		<label id="" class="c-hnav__cheakbox c-hnav__close" for="c-hnav__checkbox"></label>
-		<div class="c-hnav__content">
-			<ul class="">
-                <li><a class="s-SS -ws-n -left" href="#01"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-				<li><a class="s-SS -ws-n -left" href="#02"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-				<li><a class="s-SS -ws-n -left" href="#03"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-				<li><a class="s-SS -ws-n -left" href="#04"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-				<li><a class="s-SS -ws-n -left" href="#05"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-                <li><a class="s-SS -ws-n -left" href="#06"><span class="s-M pdr5 pdr4s">コンテンツ</span></a></li>
-            </ul>
-		</div>
-	</nav> -->
+    <!-- 固定アイテム / TOP -->
+    <!-- <a href="#header" class="c-btn-top -center a-fadeUp -sp25">TOPへ</a> -->
+    <!-- 固定アイテム / お問い合わせ -->
+    <a href="" class="c-btn-contact a-fadeUp -sp25">
+        <div class="imgBox">
+            <img class="tb-pc" src="images/item/follow-pc.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">
+            <img class="sp"    src="images/item/follow-sp.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">    
+        </div>
+    </a>
+
 
     <!-- コンテンツ -->
     <main class="c-container">
@@ -120,7 +110,7 @@
             </div>
         </div>
         <!-- #02 こんなお悩みございませんか？ -->
-        <div id="c02" class="c-contents -imgBg">
+        <div id="c02" class="c-contents -imgBg -bg -c02">
             <div class="imgBox">
                 <img class="tb-pc" src="images/bg/contents02-bg.jpeg" alt="背景">
                 <img class="sp"    src="images/bg/contents02-bg_s.png" alt="背景">
@@ -138,31 +128,30 @@
                 </div>
                 <!-- モヤモヤ -->
                 <div class="c-contentsBox -contents02-item02">
-                    <div class="imgBox a-fadeUp -sc-auto">
+                    <div class="imgBox c-link -img">
                         <img class="" src="images/item/contents02-item02.png" alt="保険に入りたいけど、何から手を付けて良いか分からない...">
                     </div>
                 </div>
                 <div class="c-contentsBox -contents02-item03">
-                    <div class="imgBox a-fadeUp -sc2">
+                    <div class="imgBox c-link -img">
                         <img src="images/item/contents02-item03.png" alt="保険料が高く感じる...">
                     </div>
                 </div>
                 <div class="c-contentsBox -contents02-item04">
-                    <div class="imgBox a-fadeUp -sc4">
+                    <div class="imgBox c-link -img">
                         <img src="images/item/contents02-item04.png" alt="結婚、または出産が控えていて今後が不安...">
                     </div>
                 </div>
                 <div class="c-contentsBox -contents02-item05">
-                    <div class="imgBox a-fadeUp -sc-auto">
+                    <div class="imgBox c-link -img">
                         <img src="images/item/contents02-item05.png" alt="住宅を購入する前に色々検討したい...">
                     </div>
                 </div>
                 <div class="c-contentsBox -contents02-item06">
-                    <div class="imgBox a-fadeUp -sc3">
+                    <div class="imgBox c-link -img">
                         <img src="images/item/contents02-item06.png" alt="定年退職後が不安..">
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- #03 インプレームが選ばれる理由 -->
@@ -208,14 +197,14 @@
             </div>
         </div>
         <!-- #04 ご利用までの流れ -->
-        <div id="c04" class="c-contents -imgBg">
+        <div id="c04" class="c-contents -imgBg -bg -c04">
             <div class="imgBox">
                 <img class="tb-pc" src="images/bg/contents04-bg.png"   alt="背景">
                 <img class="sp"    src="images/bg/contents04-bg_s.png" alt="背景">
             </div>
             <div class="c-contents-inner c-contentsBox -contents-body">
                 <div class="c-contentsBox -contents04-title">
-                    <h2 class="s-LL -b -color02 -center -ls-2 pdb5 pdb5s">ご利用<span class="s-L -s20 -b -color02">までの</span>流れ</h2>
+                    <h2 class="s-LL -b -color02 -center -ls-2 pdb5 pdb1s">ご利用<span class="s-L -s20 -b -color02">までの</span>流れ</h2>
                 </div>
                 <!-- 流れ１ -->
                 <div class="c-contentsBox -flowItem -flowItem01">
@@ -380,33 +369,66 @@
         <!-- #06 よくある質問 -->
         <div id="c06" class="c-contents -bg-lightBlue01 pdt5 pdt10s pdb5 pdb10s">
             <div class="c-contents-inner">
+                <h2 class="s-LL -b -color02 -center -ls-2 pdb5 pdb7s"><span class="s-L -s20 -b -color02"></span>よくある質問</h2>
+                <!-- アコーディオン -->
+                <div class="c-accordion mgb2 mgb5s"><!-- Q.1 -->
+                    <input id="accordion01" type="checkbox" class="toggle">
+                    <label for="accordion01" class="label s-ML -color02 -b -ls-2">お問い合わせや相談時に金額が発生しますか？</label>
 
+                    <p class="c-accordion-text s-M -ls-2">お問い合わせや相談までは無料ですので、お気軽にお問い合わせください！</p>
+                </div>
+                <div class="c-accordion mgb2 mgb5s"><!-- Q.2 -->
+                    <input id="accordion02" type="checkbox" class="toggle">
+                    <label for="accordion02" class="label s-ML -color02 -b -ls-2">調査に使われた個人情報はどのように取り扱われますか？</label>
+
+                    <p class="c-accordion-text s-M -ls-2">プライバシーポリシーに遵守して管理していますのでご安心ください。詳しくは<a class="-red b-text" href="https://impreme.jp/privacy-policy/" target="_blank">コチラ</a>をご覧ください。</p>
+                </div>
+                <div class="c-accordion mgb2 mgb5s"><!-- Q.3 -->
+                    <input id="accordion03" type="checkbox" class="toggle">
+                    <label for="accordion03" class="label s-ML -color02 -b -ls-2">営業電話が頻繁に掛かってくる事はありますか？</label>
+
+                    <p class="c-accordion-text s-M -ls-2">私たちからは営業は致しません。質問や相談がありましたら、お客様からお問い合わせいただきますようお願いいたします。</p>
+                </div>
+                <div class="c-accordion mgb2 mgb5s"><!-- Q.4 -->
+                    <input id="accordion04" type="checkbox" class="toggle">
+                    <label for="accordion04" class="label s-ML -color02 -b -ls-2">初心者なのでちょっとした事でも優しく教えて欲しいです。</label>
+
+                    <p class="c-accordion-text s-M -ls-2">もちろん大丈夫です！弊社専属のファイナンシャルプランナーがどんな些細な事でもお答えします。</p>
+                </div>
+                <div class="c-accordion"><!-- Q.5 -->
+                    <input id="accordion05" type="checkbox" class="toggle">
+                    <label for="accordion05" class="label s-ML -color02 -b -ls-2">お問い合わせや相談前に用意しておく物はありますか？</label>
+
+                    <p class="c-accordion-text s-M -ls-2">保険証券と保険契約書などの保険の内容がわかるモノが必要です。※以上の書類をなくされた場合でも相談可能です。</p>
+                </div>
             </div>
         </div>
-
-        <!-- 周辺環境画像 + 拡大 > サンプル -->
-        <!-- .imgBoxクラス内のimageとmyCanvasに設定しているimagesの大きさを同じにして下さい。 -->
-        <div class="c-contents-inner w1100 mgb10 mgb20s">
-            <div id="canvasContainer" class="c-contents -imgBg">
-                <div class="imgBox"><img src="images/item/sample/location-map_bg.png" alt="MAP"></div><!-- imgタグの表示幅を取得 -->
-                <div class="c-contentsBox -center"><canvas id="myCanvas" width="" height=""></canvas></div>
+        <!-- お問い合せ -->
+        <div class="c-contents -imgBg -bg-blue pdt3 pdt5s pdb3 pdb5s">
+            <div class="c-contents-inner">
+                <div class="imgBox mgb3 mgb5s">
+                    <img class="tb-pc" src="images/contact-title.png" alt="お問い合わせ無料！お気軽にお問い合わせ下さい！">
+                    <img class="sp" src="images/contact-title-sp.png" alt="お問い合わせ無料！お気軽にお問い合わせ下さい！">
+                </div>
+                <div class="c-btnArea">
+                    <ul class="c-flex -col1_2 -jc-cen">
+                        <li class="flexItem mgb2s">
+                            <a class="c-link -contact" href=""><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
+                        </li>
+                        <!-- <li class="flexItem">
+                            <a class="c-link -contact" href="tel:03-6264-7047"><img src="images/item/contact-orange.png" alt="お電話でのお問い合わせはコチラ 03-6264-7047"></a>
+                        </li> -->
+                    </ul>
+                </div>
             </div>
         </div>
-
-
     </main>
     <!-- //コンテンツ -->
 
     <!-- footer -->
-    <footer id="footer" class="c-footer mgt-2">
+    <footer id="footer" class="c-footer mgt-2" style="background: #000000;">
         <div class="c-footer__shopArea">
-            <ul class="c-footer__shopFlex">
-                <li><a href="" target="_blank"><img src="" alt="株式会社インプレーム ロゴ"></a></li>
-                <li>
-                    <img class="tb-pc" src="" alt="株式会社インプレーム 電話番号">
-                    <a class="sp" href="tel:電話番号"><img src="" alt="株式会社インプレーム 電話番号"></a>
-                </li>
-            </ul>
+            <img src="images/logo/impreme-logo-footer.png" alt="株式会社インプレーム">
         </div>
     </footer>
     <!-- //footer -->

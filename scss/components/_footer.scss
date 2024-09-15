@@ -2,9 +2,9 @@
 .c-footer{
 	width: 100vw;
 	height: auto;
-	margin-bottom: 20%;
-	@include min(768){
-		margin-bottom: 5%;
+	// margin-bottom: 20%;
+	@include max(768){
+		margin-bottom: 13%;
 	}
 	&-wrapper{
 		align-items: center;
@@ -368,7 +368,7 @@
 		margin: auto;
 		@include min(768){
 			width: 40%;
-			max-width: 1000px;
+			max-width: 450px;
 		}
 		.c-footer__shopFlex{
 			display: flex;

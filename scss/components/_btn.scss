@@ -78,13 +78,13 @@ button{
 	}
 	&-top{
 		position: fixed;
-    bottom: 19px;
+    	bottom: 19px;
 		right: 19px;
 		width: 4rem;
 		height: 4rem;
 		line-height: 3.5rem;
 		background: white;
-    border: 1px solid $main-color--b;
+    	border: 1px solid $main-color--b;
 		box-shadow: 2px 3px 5px 0px #3b3b3b54;
 		cursor: pointer;
 		transition: all .5s;
@@ -97,6 +97,33 @@ button{
 			color: $main-color--w;
 			background: $site-color01;
 			border-radius: 5px;
+		}
+	}
+	&-contact{
+		position: fixed;
+    	bottom: 0%;
+		left: 0%;
+
+		display: inline-table;
+		width: 100%;
+		height: auto;
+		cursor: pointer;
+		transition: all .5s;
+		z-index: 99;
+		@include min(768){
+			top: 50%;
+			left: auto;
+			right: 3%;
+			width: 6rem;
+			box-shadow: 2px 3px 5px 0px #3b3b3b54;
+			border-radius: 10px;
+			.imgBox{
+				transform: scale(1);
+				transition: all .5s;
+			}
+			&:hover{
+				.imgBox{transform: scale(1.05);}
+			}
 		}
 	}
 }

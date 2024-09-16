@@ -1,6 +1,11 @@
 // 1. TOPページ
 
 .p-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: $site-color01;
+
 	width: 100vw;
 	height: 100lvh;
 	animation: fadeAnime 3s forwards;

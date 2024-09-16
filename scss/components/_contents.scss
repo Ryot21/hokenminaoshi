@@ -10,12 +10,13 @@
 		margin: auto;
 		@include min(768){
 			width: 70%;
-			max-width: 1200px;
+			max-width: 1000px;
 		}
 	}
 
 	&.-bg-lightBlue01{background: $site-color01;}
 	&.-bg-lightBlue02{background: $site-color05;}
+	&.-bg-white{background: $main-color--w;}
 	&.-bg-blue{background: $site-color02;}
 	&.-bg-green{background: $site-color03;}
 	&.-bg-orange{background: $site-color04;}
@@ -27,13 +28,6 @@
 		.fvBg{
 			position: relative;
 			width: 100lvw;
-			// height: 100lvh;
-			// min-height: 560px;
-			// max-height: 570px;
-			@include min(768){
-				// min-height: 770px;
-				// max-height: 780px;
-			}
 		}
 	}
 
@@ -43,7 +37,7 @@
 		&.-bg{//背景画像が大きくなると、コンテンツが間延びしてしまう場合
 			overflow: hidden;
 			&.-c02 .imgBox{@include min(768){max-height: 1000px;}}
-			&.-c04 .imgBox{@include min(768){max-height: 2240px;}}
+			&.-c04 .imgBox{@include min(768){max-height: 1980px;}}
 
 		}
 		.c-contentsBox{
@@ -211,14 +205,15 @@
 			}
 			&.-contents03{
 				&-item01{//顧客満足度
-					top: 54%;
+					top: 45%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
 					@include min(768){
 						top: 37%;
 						left: 64%;
-						width: 60%;					}
+						width: 60%;
+					}
 				}
 				&-item02{//インプレームが選ばれる理由
 					top: 78%;
@@ -231,7 +226,7 @@
 					}
 				}
 				&-item03{//お金アイコン
-					top: 72%;
+					top: 71%;
 					left: 6.75%;
 					transform: translate(-50%, -50%);
 					width: 15%;	
@@ -240,7 +235,7 @@
 					}
 				}
 				&-item04{//グラフアイコン
-					top: 83.5%;
+					top: 80.5%;
 					left: 94.5%;
 					transform: translate(-50%, -50%);
 					width: 14%;
@@ -275,7 +270,7 @@
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
-					@include min(768){top: 9%;}
+					@include min(768){top: 7%;}
 				}
 			}
 				&.-flowItem{
@@ -284,23 +279,23 @@
 					width: 100%;
 					&.-flowItem01{
 						top: 13.25%;
-						@include min(768){top: 22%;}
+						@include min(768){top: 20%;}
 					}
 					&.-flowItem02{
 						top: 31.5%;
-						@include min(768){top: 38%;}
+						@include min(768){top: 36%;}
 					}
 					&.-flowItem03{
 						top: 50%;
-						@include min(768){top: 54%;}
+						@include min(768){top: 52%;}
 					}
 					&.-flowItem04{
 						top: 69%;
-						@include min(768){top: 70%;}
+						@include min(768){top: 68%;}
 					}
 					&.-flowItem05{
 						top: 88%;
-						@include min(768){top: 86%;}
+						@include min(768){top: 84%;}
 					}
 
 					.selif{

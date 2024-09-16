@@ -2,9 +2,11 @@
 .c-footer{
 	width: 100vw;
 	height: auto;
-	// margin-bottom: 20%;
+	background: #000000;
+	padding: 5px;
 	@include max(768){
-		margin-bottom: 13%;
+		padding: 10px;
+		margin-bottom: 20lvh;
 	}
 	&-wrapper{
 		align-items: center;
@@ -364,11 +366,11 @@
 		}
 	}
 	&__shopArea{// 支店情報エリア
-		width: 60%;
+		width: 50%;
 		margin: auto;
 		@include min(768){
-			width: 40%;
-			max-width: 450px;
+			width: 20%;
+			max-width: 280px;
 		}
 		.c-footer__shopFlex{
 			display: flex;

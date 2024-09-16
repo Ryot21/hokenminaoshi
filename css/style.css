@@ -137,11 +137,11 @@ p {
 }
 @font-face {
   font-family: "gothic-font01";
-  src: url("../fonts/gothic/ZenKakuGothicNew-Regular.ttf") format("truetype");
+  src: url("../fonts/gothic/LINESeedJP_OTF_Rg") format("opentype");
 }
 h1, h2, h3, h4, h5, h6, p, a, span, label, button {
   color: #3b3b3b;
-  font-family: e-font04;
+  font-family: sans-serif;
   font-weight: bold;
   font-style: normal;
   line-height: 1.3;
@@ -733,6 +733,108 @@ span.-block {
 @media (768px >= width) {
   .mg0s {
     margin: 0 !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt0s {
+    margin-top: 0 !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt1s {
+    margin-top: 1% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt2s {
+    margin-top: 2% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt3s {
+    margin-top: 3% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt4s {
+    margin-top: 4% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt5s {
+    margin-top: 5% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt6s {
+    margin-top: 6% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt7s {
+    margin-top: 7% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt8s {
+    margin-top: 8% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt9s {
+    margin-top: 9% !important;
+  }
+}
+
+@media (768px >= width) {
+  .mgt10s {
+    margin-top: 10% !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt0 {
+    margin-top: 0 !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt1 {
+    margin-top: 1% !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt2 {
+    margin-top: 2% !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt3 {
+    margin-top: 3% !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt4 {
+    margin-top: 4% !important;
+  }
+}
+
+@media (width >= 768px) {
+  .mgt5 {
+    margin-top: 5% !important;
   }
 }
 
@@ -2997,12 +3099,15 @@ button.swiper-pagination-bullet {
 }
 
 .c-header {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: auto;
-  background: #EBF9FF;
   padding: 15px 15px 0px;
   box-sizing: border-box;
   transition: padding 0.3s;
+  z-index: 9999;
 }
 @media (width >= 768px) {
   .c-header {
@@ -3050,7 +3155,8 @@ button.swiper-pagination-bullet {
 }
 .c-header .logo {
   display: inline-flex;
-  max-width: 100px;
+  max-width: 120px;
+  width: 25%;
 }
 @media (width >= 768px) {
   .c-header .logo {
@@ -3372,10 +3478,13 @@ button.swiper-pagination-bullet {
 .c-footer {
   width: 100vw;
   height: auto;
+  background: #000000;
+  padding: 5px;
 }
 @media (768px >= width) {
   .c-footer {
-    margin-bottom: 13%;
+    padding: 10px;
+    margin-bottom: 20lvh;
   }
 }
 .c-footer-wrapper {
@@ -3751,13 +3860,13 @@ button.swiper-pagination-bullet {
   border-radius: 30px;
 }
 .c-footer__shopArea {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 @media (width >= 768px) {
   .c-footer__shopArea {
-    width: 40%;
-    max-width: 450px;
+    width: 20%;
+    max-width: 280px;
   }
 }
 .c-footer__shopArea .c-footer__shopFlex {
@@ -4196,7 +4305,7 @@ button.swiper-pagination-bullet {
 @media (width >= 768px) {
   .c-contents-inner {
     width: 70%;
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 .c-contents.-bg-lightBlue01 {
@@ -4204,6 +4313,9 @@ button.swiper-pagination-bullet {
 }
 .c-contents.-bg-lightBlue02 {
   background: #61BBE3;
+}
+.c-contents.-bg-white {
+  background: #ffffff;
 }
 .c-contents.-bg-blue {
   background: #194299;
@@ -4235,7 +4347,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg.-bg.-c04 .imgBox {
-    max-height: 2240px;
+    max-height: 1980px;
   }
 }
 .c-contents.-imgBg .c-contentsBox {
@@ -4417,7 +4529,7 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents03-item01 {
-  top: 54%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -4441,7 +4553,7 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents03-item03 {
-  top: 72%;
+  top: 71%;
   left: 6.75%;
   transform: translate(-50%, -50%);
   width: 15%;
@@ -4452,7 +4564,7 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents03-item04 {
-  top: 83.5%;
+  top: 80.5%;
   left: 94.5%;
   transform: translate(-50%, -50%);
   width: 14%;
@@ -4494,7 +4606,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-contents04-title {
-    top: 9%;
+    top: 7%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem {
@@ -4507,7 +4619,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem01 {
-    top: 22%;
+    top: 20%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem02 {
@@ -4515,7 +4627,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem02 {
-    top: 38%;
+    top: 36%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem03 {
@@ -4523,7 +4635,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem03 {
-    top: 54%;
+    top: 52%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem04 {
@@ -4531,7 +4643,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem04 {
-    top: 70%;
+    top: 68%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem05 {
@@ -4539,7 +4651,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem05 {
-    top: 86%;
+    top: 84%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem .selif {
@@ -6744,6 +6856,7 @@ a {
   display: none;
 }
 .c-accordion .label {
+  position: relative;
   display: block;
   padding: 1rem 3rem 1rem 3.5rem;
 }
@@ -6779,14 +6892,14 @@ a {
     font-size: clamp(1.6rem, 2vw, 2rem);
   }
 }
-.c-accordion label, .c-accordion-text {
+.c-accordion-text {
   padding: 0 30px;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: all 0.3s;
 }
 @media (width >= 768px) {
-  .c-accordion label, .c-accordion-text {
+  .c-accordion-text {
     padding: 0 40px;
   }
 }
@@ -6812,6 +6925,10 @@ a {
 }
 
 .p-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #EBF9FF;
   width: 100vw;
   height: 100lvh;
   animation: fadeAnime 3s forwards;

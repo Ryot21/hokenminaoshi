@@ -2822,10 +2822,6 @@ button.swiper-pagination-bullet {
     max-width: none;
   }
 }
-.luminous img {
-  pointer-events: auto !important;
-}
-
 .w95.-right, .w95s.-right,
 .w90.-right, .w90s.-right,
 .w85.-right, .w85s.-right,
@@ -3484,7 +3480,7 @@ button.swiper-pagination-bullet {
 @media (768px >= width) {
   .c-footer {
     padding: 10px;
-    margin-bottom: 20lvh;
+    margin-bottom: 19.5lvh;
   }
 }
 .c-footer-wrapper {
@@ -6507,6 +6503,10 @@ a {
   margin-bottom: 1em;
 }
 
+.luminous img {
+  pointer-events: auto !important;
+}
+
 .lum-lightbox {
   transition: all 1s;
   z-index: 999;
@@ -6528,14 +6528,26 @@ a {
 @media (768px >= width) {
   .lum-lightbox-image-wrapper {
     width: 90vw !important;
-    height: 100% !important;
-    max-height: 100% !important;
+    max-width: 400px !important;
+    height: 40lvh !important;
+    max-width: 100% !important;
   }
 }
+.lum-lightbox-position-helper {
+  margin: auto 35px !important;
+}
+@media (width >= 768px) {
+  .lum-lightbox-position-helper {
+    max-width: 700px;
+  }
+}
+.lum-lightbox-caption {
+  display: none;
+}
 @media (768px >= width) {
-  .lum-gallery-button::after :after {
-    width: 6vw;
-    height: 6vw;
+  .lum-gallery-button::after {
+    width: 20px !important;
+    height: 20px !important;
   }
 }
 .lum-close-button {

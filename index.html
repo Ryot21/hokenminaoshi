@@ -24,14 +24,15 @@
     <meta property="og:image"        content="images/sns/share.jpg"><!-- SNS表示用のサムネイル 1200px × 630px -->
     <!-- //SNS関係 -->
     <!--// デプロイ前に確認・サンプル -->
-
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/swiper.min.js"></script>
     <script src="js/luminous.min.js"></script>
+    <script src="js/returnPopup.js" ></script>
 
 
     <!-- Google Analytics（GA4） -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SXB3Y45T9"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SXB3Y45T9"></script>
     <script>
         if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
             window.dataLayer = window.dataLayer || [];
@@ -39,9 +40,9 @@
             gtag('js', new Date());
             gtag('config', 'G-4SXB3Y45T9');
         }
-    </script>
+    </script> -->
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
         if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -49,14 +50,14 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-M48ZKPBW');
         }
-    </script>
+    </script> -->
     <!-- Optimize Next（ABテスト） -->
-    <script>(function(p,r,o,j,e,c,t,g){
+    <!-- <script>(function(p,r,o,j,e,c,t,g){
         p['_'+t]={};g=r.createElement('script');g.src='https://www.googletagmanager.com/gtm.js?id=GTM-'+t;r[o].prepend(g);
         g=r.createElement('style');g.innerText='.'+e+t+'{visibility:hidden!important}';r[o].prepend(g);
         r[o][j].add(e+t);setTimeout(function(){if(r[o][j].contains(e+t)){r[o][j].remove(e+t);p['_'+t]=0}},c)
         })(window,document,'documentElement','classList','loading',2000,'MRSQCWSJ')
-    </script>
+    </script> -->
 
 </head>
 <body class="p-top">
@@ -66,24 +67,31 @@
 
     <!-- 固定アイテム / TOP -->
     <!-- <a href="#header" class="c-btn-top -center a-fadeUp -sp25">TOPへ</a> -->
+
     <!-- 固定アイテム / お問い合わせ -->
-    <a href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ" class="c-btn-contact a-fadeUp -sp25">
+    <a href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ" class="c-btn-contact popupOut a-fadeUp -sp25">
         <div class="imgBox">
             <img class="tb-pc" src="images/item/follow-pc.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">
             <img class="sp"    src="images/item/follow-sp.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">    
         </div>
     </a>
-    <!-- <label class="c-btn-contact a-fadeUp -sp25" for="popup01">
-        <div class="imgBox">
-            <img class="tb-pc" src="images/item/follow-pc.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">
-            <img class="sp"    src="images/item/follow-sp.png" alt="公式LINEのお問い合わせはコチラ ~セカンドオピニオンも大歓迎~">    
-        </div>
-    </label> -->
 
+    <!-- ページ遷移モーダル -->
+    <div class="c-closeModal js-modal">
+        <div class="c-closeModal__bg js-modal-close"></div>
+        <div class="c-closeModal__content">
+            <a class="c-closeModal__contactLink c-link -img" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ">
+                <div class="imgBox">
+                    <img class="tb-pc" src="images/item/closeModal-PC.png" alt="お問い合わせバナー">
+                    <img class="sp"    src="images/item/closeModal-SP.png" alt="お問い合わせバナー">
+                </div>
+            </a>
+            <a class="c-closeModal__backLink js-modal-close c-link -img" href=""></a>
+        </div>
+    </div>
 
     <!-- コンテンツ -->
     <main class="c-container mgt4 mgt10s">
-
         <!-- ファーストビュー -->
         <div class="c-contents -imgBg -bg-lightBlue01">
             <div class="c-contents-inner pdb3 pdb5s">
@@ -103,12 +111,12 @@
             <div class="c-contents-inner">
                 <div class="imgBox mgb3 mgb5s">
                     <img class="tb-pc" src="images/contact-title.png" alt="お問い合わせ無料！お気軽にお問い合わせ下さい！">
-                    <img class="sp" src="images/contact-title-sp.png" alt="お問い合わせ無料！お気軽にお問い合わせ下さい！">
+                    <img class="sp"    src="images/contact-title-sp.png" alt="お問い合わせ無料！お気軽にお問い合わせ下さい！">
                 </div>
                 <div class="c-btnArea">
                     <ul class="c-flex -col1_2 -jc-cen">
                         <li class="flexItem mgb2s">
-                            <a class="c-link -contact" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
+                            <a class="c-link -contact popupOut" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
                         </li>
                         <!-- <li class="flexItem">
                             <a class="c-link -contact" href="tel:03-6264-7047"><img src="images/item/contact-orange.png" alt="お電話でのお問い合わせはコチラ 03-6264-7047"></a>
@@ -357,7 +365,7 @@
                 <div class="c-btnArea">
                     <ul class="c-flex -col1_2 -jc-cen">
                         <li class="flexItem mgb2s">
-                            <a class="c-link -contact" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
+                            <a class="c-link -contact popupOut" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
                         </li>
                         <!-- <li class="flexItem">
                             <a class="c-link -contact" href="tel:03-6264-7047"><img src="images/item/contact-orange.png" alt="お電話でのお問い合わせはコチラ 03-6264-7047"></a>
@@ -443,7 +451,7 @@
                 <div class="c-btnArea">
                     <ul class="c-flex -col1_2 -jc-cen">
                         <li class="flexItem mgb2s">
-                            <a class="c-link -contact" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
+                            <a class="c-link -contact popupOut" href="https://s.lmes.jp/landing-qr/1661078431-n9OxlRrW?uLand=Rb0UaQ"><img src="images/item/contact-green.png" alt="保険についてのお問い合わせはコチラ"></a>
                         </li>
                         <!-- <li class="flexItem">
                             <a class="c-link -contact" href="tel:03-6264-7047"><img src="images/item/contact-orange.png" alt="お電話でのお問い合わせはコチラ 03-6264-7047"></a>
@@ -566,8 +574,9 @@
         if( luminousTrigger !== null ) {
             new LuminousGallery(luminousTrigger,{},options);
         }
+    
+
     </script>
-    <script src="js/imagesMouseScale.js" ></script><!-- 画像の拡大縮小 -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M48ZKPBW" height="0" width="0" style="display:none;visibility:hidden"></iframe>

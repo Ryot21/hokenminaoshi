@@ -4300,7 +4300,11 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents-inner {
-    width: 70%;
+    width: 75%;
+  }
+}
+@media (width >= 1600px) {
+  .c-contents-inner {
     max-width: 1000px;
   }
 }
@@ -4345,16 +4349,6 @@ button.swiper-pagination-bullet {
   .c-contents.-imgBg.-bg.-c04 .imgBox {
     max-height: 1980px;
   }
-}
-@media (width >= 768px) {
-  .c-contents.-imgBg.-bg.-c-campaign .imgBox {
-    max-height: 1000px;
-  }
-}
-.c-contents.-imgBg.-bg.-c-campaign .-contents-body {
-  background: #ffffff;
-  border: 3px solid #3b3b3b;
-  border-radius: 5px;
 }
 .c-contents.-imgBg .c-contentsBox {
   position: absolute;

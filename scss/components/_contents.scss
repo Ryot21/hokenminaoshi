@@ -8,12 +8,8 @@
 	&-inner{
 		width: 90%;
 		margin: auto;
-		@include min(768){
-			width: 75%;
-		}
-		@include min(1600){
-			max-width: 1000px;
-		}
+		@include min(768){width: 75%;}
+		@include min(1600){max-width: 1250px;}
 	}
 
 	&.-bg-lightBlue01{background: $site-color01;}

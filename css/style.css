@@ -3480,7 +3480,7 @@ button.swiper-pagination-bullet {
 @media (768px >= width) {
   .c-footer {
     padding: 10px;
-    margin-bottom: 19.5lvh;
+    margin-bottom: 5.5lvh;
   }
 }
 .c-footer-wrapper {
@@ -4305,7 +4305,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 1600px) {
   .c-contents-inner {
-    max-width: 1000px;
+    max-width: 1250px;
   }
 }
 .c-contents.-bg-lightBlue01 {

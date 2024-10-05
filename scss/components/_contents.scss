@@ -9,7 +9,7 @@
 		width: 90%;
 		margin: auto;
 		@include min(768){width: 75%;}
-		@include min(1600){max-width: 1250px;}
+		@include min(1600){max-width: 1120px;}
 	}
 
 	&.-bg-lightBlue01{background: $site-color01;}
@@ -33,7 +33,7 @@
 	&.-imgBg{//背景画像
 		position: relative;
 		&.-bg{//背景画像が大きくなると、コンテンツが間延びしてしまう場合
-			overflow: hidden;
+			// overflow: hidden;
 			&.-c02 .imgBox{@include min(768){max-height: 1000px;}}
 			&.-c04 .imgBox{@include min(768){max-height: 1980px;}}
 
@@ -133,20 +133,20 @@
 				}
 
 				&-item01{//悩む男性
-					top: 70%;
+					top: 74%;
 					left: 50%;
 					transform: translate(-50%, -50%);
-					width: 33%;
+					width: 40%;
 					@include min(768){
 						top: 75%;
 						width: 24%;
 					}
 				}
 				&-item02{
-					top: 43%;
+					top: 44%;
 					left: 47.85%;
 					transform: translate(-50%, -50%);
-					width: 49%;
+					width: 60%;
 					z-index: 2;
 					@include min(768){
 						top: 48%;
@@ -155,10 +155,10 @@
 					}
 				}
 				&-item03{
-					top: 49%;
+					top: 54%;
 					left: 18%;
 					transform: translate(-50%, -50%);
-					width: 35%;
+					width: 41%;
 					z-index: 1;
 					@include min(768){
 						top: 51%;
@@ -167,10 +167,10 @@
 					}
 				}
 				&-item04{
-					top: 50%;
-					left: 84%;
+					top: 57%;
+					left: 83%;
 					transform: translate(-50%, -50%);
-					width: 36%;
+					width: 45%;
 					z-index: 3;
 					@include min(768){
 						top: 51%;
@@ -179,10 +179,10 @@
 					}
 				}
 				&-item05{
-					top: 67%;
+					top: 73%;
 					left: 19%;
 					transform: translate(-50%, -50%);
-					width: 40%;
+					width: 50%;
 					@include min(768){
 						top: 74%;
 						left: 22%;
@@ -190,10 +190,10 @@
 					}
 				}
 				&-item06{
-					top: 64%;
+					top: 75%;
 					left: 82%;
 					transform: translate(-50%, -50%);
-					width: 43%;
+					width: 50%;
 					@include min(768){
 						top: 73%;
 						left: 80%;
@@ -218,14 +218,13 @@
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
-
 					@include min(768){
 						top: 70%;
 					}
 				}
 				&-item03{//お金アイコン
 					top: 71%;
-					left: 6.75%;
+					left: 6.7%;
 					transform: translate(-50%, -50%);
 					width: 15%;	
 					@include min(768){
@@ -264,11 +263,11 @@
 			}
 			&.-contents04{
 				&-title{
-					top: 3%;
+					top: 14%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
-					@include min(768){top: 7%;}
+					@include min(768){top: 16%;}
 				}
 			}
 				&.-flowItem{
@@ -296,6 +295,12 @@
 						@include min(768){top: 84%;}
 					}
 
+					&.-flowItem-1007{
+						top: 57.25%;
+						@include min(768){top: 57%;}
+
+					}
+
 					.selif{
 						position: relative;
 						width: 23%;
@@ -319,6 +324,37 @@
 
 					}
 				}
+			&.-campaign{
+				&-modal{
+					top: 60%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 100%;
+					@include min(768){
+						top: 50%;
+					}
+				}
+				&-man{
+					bottom: 0;
+					right: -10%;
+					width: 25%;
+				}
+				&-woman{
+					bottom: 0;
+					left: -10%;
+					width: 25%;
+				}
+				&-serif{
+					top: 8%;
+					right: -5%;
+					width: 33%;
+					@include min(768){
+						top: 0;
+						right: -2%;
+						width: 30%;
+					}
+				}
+			}
 		}
 	}
 

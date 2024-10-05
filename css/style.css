@@ -4305,7 +4305,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 1600px) {
   .c-contents-inner {
-    max-width: 1250px;
+    max-width: 1120px;
   }
 }
 .c-contents.-bg-lightBlue01 {
@@ -4336,9 +4336,6 @@ button.swiper-pagination-bullet {
 }
 .c-contents.-imgBg {
   position: relative;
-}
-.c-contents.-imgBg.-bg {
-  overflow: hidden;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg.-bg.-c02 .imgBox {
@@ -4449,10 +4446,10 @@ button.swiper-pagination-bullet {
   width: 100%;
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item01 {
-  top: 70%;
+  top: 74%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 33%;
+  width: 40%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-contents02-item01 {
@@ -4461,10 +4458,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item02 {
-  top: 43%;
+  top: 44%;
   left: 47.85%;
   transform: translate(-50%, -50%);
-  width: 49%;
+  width: 60%;
   z-index: 2;
 }
 @media (width >= 768px) {
@@ -4475,10 +4472,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item03 {
-  top: 49%;
+  top: 54%;
   left: 18%;
   transform: translate(-50%, -50%);
-  width: 35%;
+  width: 41%;
   z-index: 1;
 }
 @media (width >= 768px) {
@@ -4489,10 +4486,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item04 {
-  top: 50%;
-  left: 84%;
+  top: 57%;
+  left: 83%;
   transform: translate(-50%, -50%);
-  width: 36%;
+  width: 45%;
   z-index: 3;
 }
 @media (width >= 768px) {
@@ -4503,10 +4500,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item05 {
-  top: 67%;
+  top: 73%;
   left: 19%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 50%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-contents02-item05 {
@@ -4516,10 +4513,10 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents02-item06 {
-  top: 64%;
+  top: 75%;
   left: 82%;
   transform: translate(-50%, -50%);
-  width: 43%;
+  width: 50%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-contents02-item06 {
@@ -4554,7 +4551,7 @@ button.swiper-pagination-bullet {
 }
 .c-contents.-imgBg .c-contentsBox.-contents03-item03 {
   top: 71%;
-  left: 6.75%;
+  left: 6.7%;
   transform: translate(-50%, -50%);
   width: 15%;
 }
@@ -4599,14 +4596,14 @@ button.swiper-pagination-bullet {
   }
 }
 .c-contents.-imgBg .c-contentsBox.-contents04-title {
-  top: 3%;
+  top: 14%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
 @media (width >= 768px) {
   .c-contents.-imgBg .c-contentsBox.-contents04-title {
-    top: 7%;
+    top: 16%;
   }
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem {
@@ -4654,6 +4651,14 @@ button.swiper-pagination-bullet {
     top: 84%;
   }
 }
+.c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem-1007 {
+  top: 57.25%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-flowItem.-flowItem-1007 {
+    top: 57%;
+  }
+}
 .c-contents.-imgBg .c-contentsBox.-flowItem .selif {
   position: relative;
   width: 23%;
@@ -4688,6 +4693,39 @@ button.swiper-pagination-bullet {
 }
 .c-contents.-imgBg .c-contentsBox.-flowItem .selif.-no5::after {
   content: "Flow05";
+}
+.c-contents.-imgBg .c-contentsBox.-campaign-modal {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-campaign-modal {
+    top: 50%;
+  }
+}
+.c-contents.-imgBg .c-contentsBox.-campaign-man {
+  bottom: 0;
+  right: -10%;
+  width: 25%;
+}
+.c-contents.-imgBg .c-contentsBox.-campaign-woman {
+  bottom: 0;
+  left: -10%;
+  width: 25%;
+}
+.c-contents.-imgBg .c-contentsBox.-campaign-serif {
+  top: 8%;
+  right: -5%;
+  width: 33%;
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg .c-contentsBox.-campaign-serif {
+    top: 0;
+    right: -2%;
+    width: 30%;
+  }
 }
 .c-contents.-returnBtn a {
   display: block;
@@ -5297,11 +5335,11 @@ button.swiper-pagination-bullet {
   }
 }
 .c-flex.-col2_3 .flexItem {
-  width: 48.5%;
+  width: 50%;
 }
 @media (width >= 768px) {
   .c-flex.-col2_3 .flexItem {
-    width: 32%;
+    width: 33.3333%;
   }
 }
 .c-flex.-col2_4 .flexItem {
@@ -6608,7 +6646,6 @@ a {
   width: 85%;
   background: #ffffff;
   border-radius: 10px;
-  padding: 10px;
 }
 @media (width >= 768px) {
   .c-closeModal__content {
@@ -7297,45 +7334,53 @@ a {
 .a-bg-color.-sp20::after, .a-bg-color.-sp20 img, .a-text-color.-sp20::after, .a-text-color.-sp20 img, .a-rotate-bg.-sp20::after, .a-rotate-bg.-sp20 img, .a-fade.-sp20::after, .a-fade.-sp20 img, .a-fadeUp.-sp20::after, .a-fadeUp.-sp20 img, .a-fadeDown.-sp20::after, .a-fadeDown.-sp20 img, .a-fadeLeft.-sp20::after, .a-fadeLeft.-sp20 img, .a-fadeRight.-sp20::after, .a-fadeRight.-sp20 img, .a-flipDown.-sp20::after, .a-flipDown.-sp20 img, .a-flipLeft.-sp20::after, .a-flipLeft.-sp20 img, .a-flipRight.-sp20::after, .a-flipRight.-sp20 img, .a-rotateRight.-sp20::after, .a-rotateRight.-sp20 img, .a-moveUp.-sp20::after, .a-moveUp.-sp20 img, .a-moveDown.-sp20::after, .a-moveDown.-sp20 img, .a-moveLoop.-sp20::after, .a-moveLoop.-sp20 img, .a-scOutImg.-sp20::after, .a-scOutImg.-sp20 img, .a-underLine.-sp20::after, .a-underLine.-sp20 img, .a-imgMono.-sp20::after, .a-imgMono.-sp20 img, .a-imgColor.-sp20::after, .a-imgColor.-sp20 img, .a-imgChange .no1.-sp20::after, .a-imgChange .no1.-sp20 img, .a-imgChange .no2.-sp20::after, .a-imgChange .no2.-sp20 img, .a-imgChange .no3.-sp20::after, .a-imgChange .no3.-sp20 img, .a-fade-blur.-sp20::after, .a-fade-blur.-sp20 img, .a-bird_r.-sp20::after, .a-bird_r.-sp20 img, .a-bird_l01.-sp20::after, .a-bird_l01.-sp20 img, .a-bird_l02.-sp20::after, .a-bird_l02.-sp20 img, .a-purupuru.-sp20::after, .a-purupuru.-sp20 img, .a-fviewOutImg.-sp20::after, .a-fviewOutImg.-sp20 img, .a-fviewInImg.-sp20::after, .a-fviewInImg.-sp20 img {
   animation-duration: 20s;
 }
-.a-bg-color.-sc-auto, .a-text-color.-sc-auto, .a-rotate-bg.-sc-auto, .a-fade.-sc-auto, .a-fadeUp.-sc-auto, .a-fadeDown.-sc-auto, .a-fadeLeft.-sc-auto, .a-fadeRight.-sc-auto, .a-flipDown.-sc-auto, .a-flipLeft.-sc-auto, .a-flipRight.-sc-auto, .a-rotateRight.-sc-auto, .a-moveUp.-sc-auto, .a-moveDown.-sc-auto, .a-moveLoop.-sc-auto, .a-scOutImg.-sc-auto, .a-underLine.-sc-auto, .a-imgMono.-sc-auto, .a-imgColor.-sc-auto, .a-imgChange .no1.-sc-auto, .a-imgChange .no2.-sc-auto, .a-imgChange .no3.-sc-auto, .a-fade-blur.-sc-auto, .a-bird_r.-sc-auto, .a-bird_l01.-sc-auto, .a-bird_l02.-sc-auto, .a-purupuru.-sc-auto, .a-fviewOutImg.-sc-auto, .a-fviewInImg.-sc-auto {
+.a-bg-color.-sc-exit, .a-text-color.-sc-exit, .a-rotate-bg.-sc-exit, .a-fade.-sc-exit, .a-fadeUp.-sc-exit, .a-fadeDown.-sc-exit, .a-fadeLeft.-sc-exit, .a-fadeRight.-sc-exit, .a-flipDown.-sc-exit, .a-flipLeft.-sc-exit, .a-flipRight.-sc-exit, .a-rotateRight.-sc-exit, .a-moveUp.-sc-exit, .a-moveDown.-sc-exit, .a-moveLoop.-sc-exit, .a-scOutImg.-sc-exit, .a-underLine.-sc-exit, .a-imgMono.-sc-exit, .a-imgColor.-sc-exit, .a-imgChange .no1.-sc-exit, .a-imgChange .no2.-sc-exit, .a-imgChange .no3.-sc-exit, .a-fade-blur.-sc-exit, .a-bird_r.-sc-exit, .a-bird_l01.-sc-exit, .a-bird_l02.-sc-exit, .a-purupuru.-sc-exit, .a-fviewOutImg.-sc-exit, .a-fviewInImg.-sc-exit {
   animation-timeline: view();
-  animation-range: entry 0% contain 30%;
+  animation-range: exit 0% exit 25%;
 }
-.a-bg-color.-sc-auto::after, .a-bg-color.-sc-auto img, .a-text-color.-sc-auto::after, .a-text-color.-sc-auto img, .a-rotate-bg.-sc-auto::after, .a-rotate-bg.-sc-auto img, .a-fade.-sc-auto::after, .a-fade.-sc-auto img, .a-fadeUp.-sc-auto::after, .a-fadeUp.-sc-auto img, .a-fadeDown.-sc-auto::after, .a-fadeDown.-sc-auto img, .a-fadeLeft.-sc-auto::after, .a-fadeLeft.-sc-auto img, .a-fadeRight.-sc-auto::after, .a-fadeRight.-sc-auto img, .a-flipDown.-sc-auto::after, .a-flipDown.-sc-auto img, .a-flipLeft.-sc-auto::after, .a-flipLeft.-sc-auto img, .a-flipRight.-sc-auto::after, .a-flipRight.-sc-auto img, .a-rotateRight.-sc-auto::after, .a-rotateRight.-sc-auto img, .a-moveUp.-sc-auto::after, .a-moveUp.-sc-auto img, .a-moveDown.-sc-auto::after, .a-moveDown.-sc-auto img, .a-moveLoop.-sc-auto::after, .a-moveLoop.-sc-auto img, .a-scOutImg.-sc-auto::after, .a-scOutImg.-sc-auto img, .a-underLine.-sc-auto::after, .a-underLine.-sc-auto img, .a-imgMono.-sc-auto::after, .a-imgMono.-sc-auto img, .a-imgColor.-sc-auto::after, .a-imgColor.-sc-auto img, .a-imgChange .no1.-sc-auto::after, .a-imgChange .no1.-sc-auto img, .a-imgChange .no2.-sc-auto::after, .a-imgChange .no2.-sc-auto img, .a-imgChange .no3.-sc-auto::after, .a-imgChange .no3.-sc-auto img, .a-fade-blur.-sc-auto::after, .a-fade-blur.-sc-auto img, .a-bird_r.-sc-auto::after, .a-bird_r.-sc-auto img, .a-bird_l01.-sc-auto::after, .a-bird_l01.-sc-auto img, .a-bird_l02.-sc-auto::after, .a-bird_l02.-sc-auto img, .a-purupuru.-sc-auto::after, .a-purupuru.-sc-auto img, .a-fviewOutImg.-sc-auto::after, .a-fviewOutImg.-sc-auto img, .a-fviewInImg.-sc-auto::after, .a-fviewInImg.-sc-auto img {
+.a-bg-color.-sc-exit::after, .a-bg-color.-sc-exit img, .a-text-color.-sc-exit::after, .a-text-color.-sc-exit img, .a-rotate-bg.-sc-exit::after, .a-rotate-bg.-sc-exit img, .a-fade.-sc-exit::after, .a-fade.-sc-exit img, .a-fadeUp.-sc-exit::after, .a-fadeUp.-sc-exit img, .a-fadeDown.-sc-exit::after, .a-fadeDown.-sc-exit img, .a-fadeLeft.-sc-exit::after, .a-fadeLeft.-sc-exit img, .a-fadeRight.-sc-exit::after, .a-fadeRight.-sc-exit img, .a-flipDown.-sc-exit::after, .a-flipDown.-sc-exit img, .a-flipLeft.-sc-exit::after, .a-flipLeft.-sc-exit img, .a-flipRight.-sc-exit::after, .a-flipRight.-sc-exit img, .a-rotateRight.-sc-exit::after, .a-rotateRight.-sc-exit img, .a-moveUp.-sc-exit::after, .a-moveUp.-sc-exit img, .a-moveDown.-sc-exit::after, .a-moveDown.-sc-exit img, .a-moveLoop.-sc-exit::after, .a-moveLoop.-sc-exit img, .a-scOutImg.-sc-exit::after, .a-scOutImg.-sc-exit img, .a-underLine.-sc-exit::after, .a-underLine.-sc-exit img, .a-imgMono.-sc-exit::after, .a-imgMono.-sc-exit img, .a-imgColor.-sc-exit::after, .a-imgColor.-sc-exit img, .a-imgChange .no1.-sc-exit::after, .a-imgChange .no1.-sc-exit img, .a-imgChange .no2.-sc-exit::after, .a-imgChange .no2.-sc-exit img, .a-imgChange .no3.-sc-exit::after, .a-imgChange .no3.-sc-exit img, .a-fade-blur.-sc-exit::after, .a-fade-blur.-sc-exit img, .a-bird_r.-sc-exit::after, .a-bird_r.-sc-exit img, .a-bird_l01.-sc-exit::after, .a-bird_l01.-sc-exit img, .a-bird_l02.-sc-exit::after, .a-bird_l02.-sc-exit img, .a-purupuru.-sc-exit::after, .a-purupuru.-sc-exit img, .a-fviewOutImg.-sc-exit::after, .a-fviewOutImg.-sc-exit img, .a-fviewInImg.-sc-exit::after, .a-fviewInImg.-sc-exit img {
   animation-timeline: view();
-  animation-range: entry 0% contain 30%;
+  animation-range: exit 0% exit 25%;
 }
-.a-bg-color.-sc1, .a-text-color.-sc1, .a-rotate-bg.-sc1, .a-fade.-sc1, .a-fadeUp.-sc1, .a-fadeDown.-sc1, .a-fadeLeft.-sc1, .a-fadeRight.-sc1, .a-flipDown.-sc1, .a-flipLeft.-sc1, .a-flipRight.-sc1, .a-rotateRight.-sc1, .a-moveUp.-sc1, .a-moveDown.-sc1, .a-moveLoop.-sc1, .a-scOutImg.-sc1, .a-underLine.-sc1, .a-imgMono.-sc1, .a-imgColor.-sc1, .a-imgChange .no1.-sc1, .a-imgChange .no2.-sc1, .a-imgChange .no3.-sc1, .a-fade-blur.-sc1, .a-bird_r.-sc1, .a-bird_l01.-sc1, .a-bird_l02.-sc1, .a-purupuru.-sc1, .a-fviewOutImg.-sc1, .a-fviewInImg.-sc1 {
+.a-bg-color.-sc-entry-cs, .a-text-color.-sc-entry-cs, .a-rotate-bg.-sc-entry-cs, .a-fade.-sc-entry-cs, .a-fadeUp.-sc-entry-cs, .a-fadeDown.-sc-entry-cs, .a-fadeLeft.-sc-entry-cs, .a-fadeRight.-sc-entry-cs, .a-flipDown.-sc-entry-cs, .a-flipLeft.-sc-entry-cs, .a-flipRight.-sc-entry-cs, .a-rotateRight.-sc-entry-cs, .a-moveUp.-sc-entry-cs, .a-moveDown.-sc-entry-cs, .a-moveLoop.-sc-entry-cs, .a-scOutImg.-sc-entry-cs, .a-underLine.-sc-entry-cs, .a-imgMono.-sc-entry-cs, .a-imgColor.-sc-entry-cs, .a-imgChange .no1.-sc-entry-cs, .a-imgChange .no2.-sc-entry-cs, .a-imgChange .no3.-sc-entry-cs, .a-fade-blur.-sc-entry-cs, .a-bird_r.-sc-entry-cs, .a-bird_l01.-sc-entry-cs, .a-bird_l02.-sc-entry-cs, .a-purupuru.-sc-entry-cs, .a-fviewOutImg.-sc-entry-cs, .a-fviewInImg.-sc-entry-cs {
   animation-timeline: view();
-  animation-range: entry 10% contain 35%;
+  animation-range: entry-crossing 0% entry-crossing 25%;
 }
-.a-bg-color.-sc1::after, .a-bg-color.-sc1 img, .a-text-color.-sc1::after, .a-text-color.-sc1 img, .a-rotate-bg.-sc1::after, .a-rotate-bg.-sc1 img, .a-fade.-sc1::after, .a-fade.-sc1 img, .a-fadeUp.-sc1::after, .a-fadeUp.-sc1 img, .a-fadeDown.-sc1::after, .a-fadeDown.-sc1 img, .a-fadeLeft.-sc1::after, .a-fadeLeft.-sc1 img, .a-fadeRight.-sc1::after, .a-fadeRight.-sc1 img, .a-flipDown.-sc1::after, .a-flipDown.-sc1 img, .a-flipLeft.-sc1::after, .a-flipLeft.-sc1 img, .a-flipRight.-sc1::after, .a-flipRight.-sc1 img, .a-rotateRight.-sc1::after, .a-rotateRight.-sc1 img, .a-moveUp.-sc1::after, .a-moveUp.-sc1 img, .a-moveDown.-sc1::after, .a-moveDown.-sc1 img, .a-moveLoop.-sc1::after, .a-moveLoop.-sc1 img, .a-scOutImg.-sc1::after, .a-scOutImg.-sc1 img, .a-underLine.-sc1::after, .a-underLine.-sc1 img, .a-imgMono.-sc1::after, .a-imgMono.-sc1 img, .a-imgColor.-sc1::after, .a-imgColor.-sc1 img, .a-imgChange .no1.-sc1::after, .a-imgChange .no1.-sc1 img, .a-imgChange .no2.-sc1::after, .a-imgChange .no2.-sc1 img, .a-imgChange .no3.-sc1::after, .a-imgChange .no3.-sc1 img, .a-fade-blur.-sc1::after, .a-fade-blur.-sc1 img, .a-bird_r.-sc1::after, .a-bird_r.-sc1 img, .a-bird_l01.-sc1::after, .a-bird_l01.-sc1 img, .a-bird_l02.-sc1::after, .a-bird_l02.-sc1 img, .a-purupuru.-sc1::after, .a-purupuru.-sc1 img, .a-fviewOutImg.-sc1::after, .a-fviewOutImg.-sc1 img, .a-fviewInImg.-sc1::after, .a-fviewInImg.-sc1 img {
+.a-bg-color.-sc-entry-cs::after, .a-bg-color.-sc-entry-cs img, .a-text-color.-sc-entry-cs::after, .a-text-color.-sc-entry-cs img, .a-rotate-bg.-sc-entry-cs::after, .a-rotate-bg.-sc-entry-cs img, .a-fade.-sc-entry-cs::after, .a-fade.-sc-entry-cs img, .a-fadeUp.-sc-entry-cs::after, .a-fadeUp.-sc-entry-cs img, .a-fadeDown.-sc-entry-cs::after, .a-fadeDown.-sc-entry-cs img, .a-fadeLeft.-sc-entry-cs::after, .a-fadeLeft.-sc-entry-cs img, .a-fadeRight.-sc-entry-cs::after, .a-fadeRight.-sc-entry-cs img, .a-flipDown.-sc-entry-cs::after, .a-flipDown.-sc-entry-cs img, .a-flipLeft.-sc-entry-cs::after, .a-flipLeft.-sc-entry-cs img, .a-flipRight.-sc-entry-cs::after, .a-flipRight.-sc-entry-cs img, .a-rotateRight.-sc-entry-cs::after, .a-rotateRight.-sc-entry-cs img, .a-moveUp.-sc-entry-cs::after, .a-moveUp.-sc-entry-cs img, .a-moveDown.-sc-entry-cs::after, .a-moveDown.-sc-entry-cs img, .a-moveLoop.-sc-entry-cs::after, .a-moveLoop.-sc-entry-cs img, .a-scOutImg.-sc-entry-cs::after, .a-scOutImg.-sc-entry-cs img, .a-underLine.-sc-entry-cs::after, .a-underLine.-sc-entry-cs img, .a-imgMono.-sc-entry-cs::after, .a-imgMono.-sc-entry-cs img, .a-imgColor.-sc-entry-cs::after, .a-imgColor.-sc-entry-cs img, .a-imgChange .no1.-sc-entry-cs::after, .a-imgChange .no1.-sc-entry-cs img, .a-imgChange .no2.-sc-entry-cs::after, .a-imgChange .no2.-sc-entry-cs img, .a-imgChange .no3.-sc-entry-cs::after, .a-imgChange .no3.-sc-entry-cs img, .a-fade-blur.-sc-entry-cs::after, .a-fade-blur.-sc-entry-cs img, .a-bird_r.-sc-entry-cs::after, .a-bird_r.-sc-entry-cs img, .a-bird_l01.-sc-entry-cs::after, .a-bird_l01.-sc-entry-cs img, .a-bird_l02.-sc-entry-cs::after, .a-bird_l02.-sc-entry-cs img, .a-purupuru.-sc-entry-cs::after, .a-purupuru.-sc-entry-cs img, .a-fviewOutImg.-sc-entry-cs::after, .a-fviewOutImg.-sc-entry-cs img, .a-fviewInImg.-sc-entry-cs::after, .a-fviewInImg.-sc-entry-cs img {
   animation-timeline: view();
-  animation-range: entry 10% contain 35%;
+  animation-range: entry-crossing 0% entry-crossing 25%;
 }
-.a-bg-color.-sc2, .a-text-color.-sc2, .a-rotate-bg.-sc2, .a-fade.-sc2, .a-fadeUp.-sc2, .a-fadeDown.-sc2, .a-fadeLeft.-sc2, .a-fadeRight.-sc2, .a-flipDown.-sc2, .a-flipLeft.-sc2, .a-flipRight.-sc2, .a-rotateRight.-sc2, .a-moveUp.-sc2, .a-moveDown.-sc2, .a-moveLoop.-sc2, .a-scOutImg.-sc2, .a-underLine.-sc2, .a-imgMono.-sc2, .a-imgColor.-sc2, .a-imgChange .no1.-sc2, .a-imgChange .no2.-sc2, .a-imgChange .no3.-sc2, .a-fade-blur.-sc2, .a-bird_r.-sc2, .a-bird_l01.-sc2, .a-bird_l02.-sc2, .a-purupuru.-sc2, .a-fviewOutImg.-sc2, .a-fviewInImg.-sc2 {
+.a-bg-color.-sc-exit-cs, .a-text-color.-sc-exit-cs, .a-rotate-bg.-sc-exit-cs, .a-fade.-sc-exit-cs, .a-fadeUp.-sc-exit-cs, .a-fadeDown.-sc-exit-cs, .a-fadeLeft.-sc-exit-cs, .a-fadeRight.-sc-exit-cs, .a-flipDown.-sc-exit-cs, .a-flipLeft.-sc-exit-cs, .a-flipRight.-sc-exit-cs, .a-rotateRight.-sc-exit-cs, .a-moveUp.-sc-exit-cs, .a-moveDown.-sc-exit-cs, .a-moveLoop.-sc-exit-cs, .a-scOutImg.-sc-exit-cs, .a-underLine.-sc-exit-cs, .a-imgMono.-sc-exit-cs, .a-imgColor.-sc-exit-cs, .a-imgChange .no1.-sc-exit-cs, .a-imgChange .no2.-sc-exit-cs, .a-imgChange .no3.-sc-exit-cs, .a-fade-blur.-sc-exit-cs, .a-bird_r.-sc-exit-cs, .a-bird_l01.-sc-exit-cs, .a-bird_l02.-sc-exit-cs, .a-purupuru.-sc-exit-cs, .a-fviewOutImg.-sc-exit-cs, .a-fviewInImg.-sc-exit-cs {
   animation-timeline: view();
-  animation-range: entry 15% contain 40%;
+  animation-range: exit-crossing 0% exit-crossing 25%;
 }
-.a-bg-color.-sc2::after, .a-bg-color.-sc2 img, .a-text-color.-sc2::after, .a-text-color.-sc2 img, .a-rotate-bg.-sc2::after, .a-rotate-bg.-sc2 img, .a-fade.-sc2::after, .a-fade.-sc2 img, .a-fadeUp.-sc2::after, .a-fadeUp.-sc2 img, .a-fadeDown.-sc2::after, .a-fadeDown.-sc2 img, .a-fadeLeft.-sc2::after, .a-fadeLeft.-sc2 img, .a-fadeRight.-sc2::after, .a-fadeRight.-sc2 img, .a-flipDown.-sc2::after, .a-flipDown.-sc2 img, .a-flipLeft.-sc2::after, .a-flipLeft.-sc2 img, .a-flipRight.-sc2::after, .a-flipRight.-sc2 img, .a-rotateRight.-sc2::after, .a-rotateRight.-sc2 img, .a-moveUp.-sc2::after, .a-moveUp.-sc2 img, .a-moveDown.-sc2::after, .a-moveDown.-sc2 img, .a-moveLoop.-sc2::after, .a-moveLoop.-sc2 img, .a-scOutImg.-sc2::after, .a-scOutImg.-sc2 img, .a-underLine.-sc2::after, .a-underLine.-sc2 img, .a-imgMono.-sc2::after, .a-imgMono.-sc2 img, .a-imgColor.-sc2::after, .a-imgColor.-sc2 img, .a-imgChange .no1.-sc2::after, .a-imgChange .no1.-sc2 img, .a-imgChange .no2.-sc2::after, .a-imgChange .no2.-sc2 img, .a-imgChange .no3.-sc2::after, .a-imgChange .no3.-sc2 img, .a-fade-blur.-sc2::after, .a-fade-blur.-sc2 img, .a-bird_r.-sc2::after, .a-bird_r.-sc2 img, .a-bird_l01.-sc2::after, .a-bird_l01.-sc2 img, .a-bird_l02.-sc2::after, .a-bird_l02.-sc2 img, .a-purupuru.-sc2::after, .a-purupuru.-sc2 img, .a-fviewOutImg.-sc2::after, .a-fviewOutImg.-sc2 img, .a-fviewInImg.-sc2::after, .a-fviewInImg.-sc2 img {
+.a-bg-color.-sc-exit-cs::after, .a-bg-color.-sc-exit-cs img, .a-text-color.-sc-exit-cs::after, .a-text-color.-sc-exit-cs img, .a-rotate-bg.-sc-exit-cs::after, .a-rotate-bg.-sc-exit-cs img, .a-fade.-sc-exit-cs::after, .a-fade.-sc-exit-cs img, .a-fadeUp.-sc-exit-cs::after, .a-fadeUp.-sc-exit-cs img, .a-fadeDown.-sc-exit-cs::after, .a-fadeDown.-sc-exit-cs img, .a-fadeLeft.-sc-exit-cs::after, .a-fadeLeft.-sc-exit-cs img, .a-fadeRight.-sc-exit-cs::after, .a-fadeRight.-sc-exit-cs img, .a-flipDown.-sc-exit-cs::after, .a-flipDown.-sc-exit-cs img, .a-flipLeft.-sc-exit-cs::after, .a-flipLeft.-sc-exit-cs img, .a-flipRight.-sc-exit-cs::after, .a-flipRight.-sc-exit-cs img, .a-rotateRight.-sc-exit-cs::after, .a-rotateRight.-sc-exit-cs img, .a-moveUp.-sc-exit-cs::after, .a-moveUp.-sc-exit-cs img, .a-moveDown.-sc-exit-cs::after, .a-moveDown.-sc-exit-cs img, .a-moveLoop.-sc-exit-cs::after, .a-moveLoop.-sc-exit-cs img, .a-scOutImg.-sc-exit-cs::after, .a-scOutImg.-sc-exit-cs img, .a-underLine.-sc-exit-cs::after, .a-underLine.-sc-exit-cs img, .a-imgMono.-sc-exit-cs::after, .a-imgMono.-sc-exit-cs img, .a-imgColor.-sc-exit-cs::after, .a-imgColor.-sc-exit-cs img, .a-imgChange .no1.-sc-exit-cs::after, .a-imgChange .no1.-sc-exit-cs img, .a-imgChange .no2.-sc-exit-cs::after, .a-imgChange .no2.-sc-exit-cs img, .a-imgChange .no3.-sc-exit-cs::after, .a-imgChange .no3.-sc-exit-cs img, .a-fade-blur.-sc-exit-cs::after, .a-fade-blur.-sc-exit-cs img, .a-bird_r.-sc-exit-cs::after, .a-bird_r.-sc-exit-cs img, .a-bird_l01.-sc-exit-cs::after, .a-bird_l01.-sc-exit-cs img, .a-bird_l02.-sc-exit-cs::after, .a-bird_l02.-sc-exit-cs img, .a-purupuru.-sc-exit-cs::after, .a-purupuru.-sc-exit-cs img, .a-fviewOutImg.-sc-exit-cs::after, .a-fviewOutImg.-sc-exit-cs img, .a-fviewInImg.-sc-exit-cs::after, .a-fviewInImg.-sc-exit-cs img {
   animation-timeline: view();
-  animation-range: entry 15% contain 40%;
+  animation-range: exit-crossing 0% exit-crossing 25%;
 }
-.a-bg-color.-sc3, .a-text-color.-sc3, .a-rotate-bg.-sc3, .a-fade.-sc3, .a-fadeUp.-sc3, .a-fadeDown.-sc3, .a-fadeLeft.-sc3, .a-fadeRight.-sc3, .a-flipDown.-sc3, .a-flipLeft.-sc3, .a-flipRight.-sc3, .a-rotateRight.-sc3, .a-moveUp.-sc3, .a-moveDown.-sc3, .a-moveLoop.-sc3, .a-scOutImg.-sc3, .a-underLine.-sc3, .a-imgMono.-sc3, .a-imgColor.-sc3, .a-imgChange .no1.-sc3, .a-imgChange .no2.-sc3, .a-imgChange .no3.-sc3, .a-fade-blur.-sc3, .a-bird_r.-sc3, .a-bird_l01.-sc3, .a-bird_l02.-sc3, .a-purupuru.-sc3, .a-fviewOutImg.-sc3, .a-fviewInImg.-sc3 {
+.a-bg-color.-sc-contain, .a-text-color.-sc-contain, .a-rotate-bg.-sc-contain, .a-fade.-sc-contain, .a-fadeUp.-sc-contain, .a-fadeDown.-sc-contain, .a-fadeLeft.-sc-contain, .a-fadeRight.-sc-contain, .a-flipDown.-sc-contain, .a-flipLeft.-sc-contain, .a-flipRight.-sc-contain, .a-rotateRight.-sc-contain, .a-moveUp.-sc-contain, .a-moveDown.-sc-contain, .a-moveLoop.-sc-contain, .a-scOutImg.-sc-contain, .a-underLine.-sc-contain, .a-imgMono.-sc-contain, .a-imgColor.-sc-contain, .a-imgChange .no1.-sc-contain, .a-imgChange .no2.-sc-contain, .a-imgChange .no3.-sc-contain, .a-fade-blur.-sc-contain, .a-bird_r.-sc-contain, .a-bird_l01.-sc-contain, .a-bird_l02.-sc-contain, .a-purupuru.-sc-contain, .a-fviewOutImg.-sc-contain, .a-fviewInImg.-sc-contain {
   animation-timeline: view();
-  animation-range: entry 20% contain 45%;
+  animation-range: contain 0% contain 25%;
 }
-.a-bg-color.-sc3::after, .a-bg-color.-sc3 img, .a-text-color.-sc3::after, .a-text-color.-sc3 img, .a-rotate-bg.-sc3::after, .a-rotate-bg.-sc3 img, .a-fade.-sc3::after, .a-fade.-sc3 img, .a-fadeUp.-sc3::after, .a-fadeUp.-sc3 img, .a-fadeDown.-sc3::after, .a-fadeDown.-sc3 img, .a-fadeLeft.-sc3::after, .a-fadeLeft.-sc3 img, .a-fadeRight.-sc3::after, .a-fadeRight.-sc3 img, .a-flipDown.-sc3::after, .a-flipDown.-sc3 img, .a-flipLeft.-sc3::after, .a-flipLeft.-sc3 img, .a-flipRight.-sc3::after, .a-flipRight.-sc3 img, .a-rotateRight.-sc3::after, .a-rotateRight.-sc3 img, .a-moveUp.-sc3::after, .a-moveUp.-sc3 img, .a-moveDown.-sc3::after, .a-moveDown.-sc3 img, .a-moveLoop.-sc3::after, .a-moveLoop.-sc3 img, .a-scOutImg.-sc3::after, .a-scOutImg.-sc3 img, .a-underLine.-sc3::after, .a-underLine.-sc3 img, .a-imgMono.-sc3::after, .a-imgMono.-sc3 img, .a-imgColor.-sc3::after, .a-imgColor.-sc3 img, .a-imgChange .no1.-sc3::after, .a-imgChange .no1.-sc3 img, .a-imgChange .no2.-sc3::after, .a-imgChange .no2.-sc3 img, .a-imgChange .no3.-sc3::after, .a-imgChange .no3.-sc3 img, .a-fade-blur.-sc3::after, .a-fade-blur.-sc3 img, .a-bird_r.-sc3::after, .a-bird_r.-sc3 img, .a-bird_l01.-sc3::after, .a-bird_l01.-sc3 img, .a-bird_l02.-sc3::after, .a-bird_l02.-sc3 img, .a-purupuru.-sc3::after, .a-purupuru.-sc3 img, .a-fviewOutImg.-sc3::after, .a-fviewOutImg.-sc3 img, .a-fviewInImg.-sc3::after, .a-fviewInImg.-sc3 img {
+.a-bg-color.-sc-contain::after, .a-bg-color.-sc-contain img, .a-text-color.-sc-contain::after, .a-text-color.-sc-contain img, .a-rotate-bg.-sc-contain::after, .a-rotate-bg.-sc-contain img, .a-fade.-sc-contain::after, .a-fade.-sc-contain img, .a-fadeUp.-sc-contain::after, .a-fadeUp.-sc-contain img, .a-fadeDown.-sc-contain::after, .a-fadeDown.-sc-contain img, .a-fadeLeft.-sc-contain::after, .a-fadeLeft.-sc-contain img, .a-fadeRight.-sc-contain::after, .a-fadeRight.-sc-contain img, .a-flipDown.-sc-contain::after, .a-flipDown.-sc-contain img, .a-flipLeft.-sc-contain::after, .a-flipLeft.-sc-contain img, .a-flipRight.-sc-contain::after, .a-flipRight.-sc-contain img, .a-rotateRight.-sc-contain::after, .a-rotateRight.-sc-contain img, .a-moveUp.-sc-contain::after, .a-moveUp.-sc-contain img, .a-moveDown.-sc-contain::after, .a-moveDown.-sc-contain img, .a-moveLoop.-sc-contain::after, .a-moveLoop.-sc-contain img, .a-scOutImg.-sc-contain::after, .a-scOutImg.-sc-contain img, .a-underLine.-sc-contain::after, .a-underLine.-sc-contain img, .a-imgMono.-sc-contain::after, .a-imgMono.-sc-contain img, .a-imgColor.-sc-contain::after, .a-imgColor.-sc-contain img, .a-imgChange .no1.-sc-contain::after, .a-imgChange .no1.-sc-contain img, .a-imgChange .no2.-sc-contain::after, .a-imgChange .no2.-sc-contain img, .a-imgChange .no3.-sc-contain::after, .a-imgChange .no3.-sc-contain img, .a-fade-blur.-sc-contain::after, .a-fade-blur.-sc-contain img, .a-bird_r.-sc-contain::after, .a-bird_r.-sc-contain img, .a-bird_l01.-sc-contain::after, .a-bird_l01.-sc-contain img, .a-bird_l02.-sc-contain::after, .a-bird_l02.-sc-contain img, .a-purupuru.-sc-contain::after, .a-purupuru.-sc-contain img, .a-fviewOutImg.-sc-contain::after, .a-fviewOutImg.-sc-contain img, .a-fviewInImg.-sc-contain::after, .a-fviewInImg.-sc-contain img {
   animation-timeline: view();
-  animation-range: entry 20% contain 45%;
+  animation-range: contain 0% contain 25%;
 }
-.a-bg-color.-sc4, .a-text-color.-sc4, .a-rotate-bg.-sc4, .a-fade.-sc4, .a-fadeUp.-sc4, .a-fadeDown.-sc4, .a-fadeLeft.-sc4, .a-fadeRight.-sc4, .a-flipDown.-sc4, .a-flipLeft.-sc4, .a-flipRight.-sc4, .a-rotateRight.-sc4, .a-moveUp.-sc4, .a-moveDown.-sc4, .a-moveLoop.-sc4, .a-scOutImg.-sc4, .a-underLine.-sc4, .a-imgMono.-sc4, .a-imgColor.-sc4, .a-imgChange .no1.-sc4, .a-imgChange .no2.-sc4, .a-imgChange .no3.-sc4, .a-fade-blur.-sc4, .a-bird_r.-sc4, .a-bird_l01.-sc4, .a-bird_l02.-sc4, .a-purupuru.-sc4, .a-fviewOutImg.-sc4, .a-fviewInImg.-sc4 {
+.a-bg-color.-sc-cover, .a-text-color.-sc-cover, .a-rotate-bg.-sc-cover, .a-fade.-sc-cover, .a-fadeUp.-sc-cover, .a-fadeDown.-sc-cover, .a-fadeLeft.-sc-cover, .a-fadeRight.-sc-cover, .a-flipDown.-sc-cover, .a-flipLeft.-sc-cover, .a-flipRight.-sc-cover, .a-rotateRight.-sc-cover, .a-moveUp.-sc-cover, .a-moveDown.-sc-cover, .a-moveLoop.-sc-cover, .a-scOutImg.-sc-cover, .a-underLine.-sc-cover, .a-imgMono.-sc-cover, .a-imgColor.-sc-cover, .a-imgChange .no1.-sc-cover, .a-imgChange .no2.-sc-cover, .a-imgChange .no3.-sc-cover, .a-fade-blur.-sc-cover, .a-bird_r.-sc-cover, .a-bird_l01.-sc-cover, .a-bird_l02.-sc-cover, .a-purupuru.-sc-cover, .a-fviewOutImg.-sc-cover, .a-fviewInImg.-sc-cover {
   animation-timeline: view();
-  animation-range: entry 25% contain 50%;
+  animation-range: cover 0% cover 25%;
 }
-.a-bg-color.-sc4::after, .a-bg-color.-sc4 img, .a-text-color.-sc4::after, .a-text-color.-sc4 img, .a-rotate-bg.-sc4::after, .a-rotate-bg.-sc4 img, .a-fade.-sc4::after, .a-fade.-sc4 img, .a-fadeUp.-sc4::after, .a-fadeUp.-sc4 img, .a-fadeDown.-sc4::after, .a-fadeDown.-sc4 img, .a-fadeLeft.-sc4::after, .a-fadeLeft.-sc4 img, .a-fadeRight.-sc4::after, .a-fadeRight.-sc4 img, .a-flipDown.-sc4::after, .a-flipDown.-sc4 img, .a-flipLeft.-sc4::after, .a-flipLeft.-sc4 img, .a-flipRight.-sc4::after, .a-flipRight.-sc4 img, .a-rotateRight.-sc4::after, .a-rotateRight.-sc4 img, .a-moveUp.-sc4::after, .a-moveUp.-sc4 img, .a-moveDown.-sc4::after, .a-moveDown.-sc4 img, .a-moveLoop.-sc4::after, .a-moveLoop.-sc4 img, .a-scOutImg.-sc4::after, .a-scOutImg.-sc4 img, .a-underLine.-sc4::after, .a-underLine.-sc4 img, .a-imgMono.-sc4::after, .a-imgMono.-sc4 img, .a-imgColor.-sc4::after, .a-imgColor.-sc4 img, .a-imgChange .no1.-sc4::after, .a-imgChange .no1.-sc4 img, .a-imgChange .no2.-sc4::after, .a-imgChange .no2.-sc4 img, .a-imgChange .no3.-sc4::after, .a-imgChange .no3.-sc4 img, .a-fade-blur.-sc4::after, .a-fade-blur.-sc4 img, .a-bird_r.-sc4::after, .a-bird_r.-sc4 img, .a-bird_l01.-sc4::after, .a-bird_l01.-sc4 img, .a-bird_l02.-sc4::after, .a-bird_l02.-sc4 img, .a-purupuru.-sc4::after, .a-purupuru.-sc4 img, .a-fviewOutImg.-sc4::after, .a-fviewOutImg.-sc4 img, .a-fviewInImg.-sc4::after, .a-fviewInImg.-sc4 img {
+.a-bg-color.-sc-cover::after, .a-bg-color.-sc-cover img, .a-text-color.-sc-cover::after, .a-text-color.-sc-cover img, .a-rotate-bg.-sc-cover::after, .a-rotate-bg.-sc-cover img, .a-fade.-sc-cover::after, .a-fade.-sc-cover img, .a-fadeUp.-sc-cover::after, .a-fadeUp.-sc-cover img, .a-fadeDown.-sc-cover::after, .a-fadeDown.-sc-cover img, .a-fadeLeft.-sc-cover::after, .a-fadeLeft.-sc-cover img, .a-fadeRight.-sc-cover::after, .a-fadeRight.-sc-cover img, .a-flipDown.-sc-cover::after, .a-flipDown.-sc-cover img, .a-flipLeft.-sc-cover::after, .a-flipLeft.-sc-cover img, .a-flipRight.-sc-cover::after, .a-flipRight.-sc-cover img, .a-rotateRight.-sc-cover::after, .a-rotateRight.-sc-cover img, .a-moveUp.-sc-cover::after, .a-moveUp.-sc-cover img, .a-moveDown.-sc-cover::after, .a-moveDown.-sc-cover img, .a-moveLoop.-sc-cover::after, .a-moveLoop.-sc-cover img, .a-scOutImg.-sc-cover::after, .a-scOutImg.-sc-cover img, .a-underLine.-sc-cover::after, .a-underLine.-sc-cover img, .a-imgMono.-sc-cover::after, .a-imgMono.-sc-cover img, .a-imgColor.-sc-cover::after, .a-imgColor.-sc-cover img, .a-imgChange .no1.-sc-cover::after, .a-imgChange .no1.-sc-cover img, .a-imgChange .no2.-sc-cover::after, .a-imgChange .no2.-sc-cover img, .a-imgChange .no3.-sc-cover::after, .a-imgChange .no3.-sc-cover img, .a-fade-blur.-sc-cover::after, .a-fade-blur.-sc-cover img, .a-bird_r.-sc-cover::after, .a-bird_r.-sc-cover img, .a-bird_l01.-sc-cover::after, .a-bird_l01.-sc-cover img, .a-bird_l02.-sc-cover::after, .a-bird_l02.-sc-cover img, .a-purupuru.-sc-cover::after, .a-purupuru.-sc-cover img, .a-fviewOutImg.-sc-cover::after, .a-fviewOutImg.-sc-cover img, .a-fviewInImg.-sc-cover::after, .a-fviewInImg.-sc-cover img {
   animation-timeline: view();
-  animation-range: entry 25% contain 50%;
+  animation-range: cover 0% cover 25%;
+}
+.a-bg-color.-sc-entry, .a-text-color.-sc-entry, .a-rotate-bg.-sc-entry, .a-fade.-sc-entry, .a-fadeUp.-sc-entry, .a-fadeDown.-sc-entry, .a-fadeLeft.-sc-entry, .a-fadeRight.-sc-entry, .a-flipDown.-sc-entry, .a-flipLeft.-sc-entry, .a-flipRight.-sc-entry, .a-rotateRight.-sc-entry, .a-moveUp.-sc-entry, .a-moveDown.-sc-entry, .a-moveLoop.-sc-entry, .a-scOutImg.-sc-entry, .a-underLine.-sc-entry, .a-imgMono.-sc-entry, .a-imgColor.-sc-entry, .a-imgChange .no1.-sc-entry, .a-imgChange .no2.-sc-entry, .a-imgChange .no3.-sc-entry, .a-fade-blur.-sc-entry, .a-bird_r.-sc-entry, .a-bird_l01.-sc-entry, .a-bird_l02.-sc-entry, .a-purupuru.-sc-entry, .a-fviewOutImg.-sc-entry, .a-fviewInImg.-sc-entry {
+  animation-timeline: view();
+  animation-range: cover 0% cover 25%;
+}
+.a-bg-color.-sc-entry::after, .a-bg-color.-sc-entry img, .a-text-color.-sc-entry::after, .a-text-color.-sc-entry img, .a-rotate-bg.-sc-entry::after, .a-rotate-bg.-sc-entry img, .a-fade.-sc-entry::after, .a-fade.-sc-entry img, .a-fadeUp.-sc-entry::after, .a-fadeUp.-sc-entry img, .a-fadeDown.-sc-entry::after, .a-fadeDown.-sc-entry img, .a-fadeLeft.-sc-entry::after, .a-fadeLeft.-sc-entry img, .a-fadeRight.-sc-entry::after, .a-fadeRight.-sc-entry img, .a-flipDown.-sc-entry::after, .a-flipDown.-sc-entry img, .a-flipLeft.-sc-entry::after, .a-flipLeft.-sc-entry img, .a-flipRight.-sc-entry::after, .a-flipRight.-sc-entry img, .a-rotateRight.-sc-entry::after, .a-rotateRight.-sc-entry img, .a-moveUp.-sc-entry::after, .a-moveUp.-sc-entry img, .a-moveDown.-sc-entry::after, .a-moveDown.-sc-entry img, .a-moveLoop.-sc-entry::after, .a-moveLoop.-sc-entry img, .a-scOutImg.-sc-entry::after, .a-scOutImg.-sc-entry img, .a-underLine.-sc-entry::after, .a-underLine.-sc-entry img, .a-imgMono.-sc-entry::after, .a-imgMono.-sc-entry img, .a-imgColor.-sc-entry::after, .a-imgColor.-sc-entry img, .a-imgChange .no1.-sc-entry::after, .a-imgChange .no1.-sc-entry img, .a-imgChange .no2.-sc-entry::after, .a-imgChange .no2.-sc-entry img, .a-imgChange .no3.-sc-entry::after, .a-imgChange .no3.-sc-entry img, .a-fade-blur.-sc-entry::after, .a-fade-blur.-sc-entry img, .a-bird_r.-sc-entry::after, .a-bird_r.-sc-entry img, .a-bird_l01.-sc-entry::after, .a-bird_l01.-sc-entry img, .a-bird_l02.-sc-entry::after, .a-bird_l02.-sc-entry img, .a-purupuru.-sc-entry::after, .a-purupuru.-sc-entry img, .a-fviewOutImg.-sc-entry::after, .a-fviewOutImg.-sc-entry img, .a-fviewInImg.-sc-entry::after, .a-fviewInImg.-sc-entry img {
+  animation-timeline: view();
+  animation-range: entry 0% entry 25%;
 }
 .a-bg-color.-loop, .a-text-color.-loop, .a-rotate-bg.-loop, .a-fade.-loop, .a-fadeUp.-loop, .a-fadeDown.-loop, .a-fadeLeft.-loop, .a-fadeRight.-loop, .a-flipDown.-loop, .a-flipLeft.-loop, .a-flipRight.-loop, .a-rotateRight.-loop, .a-moveUp.-loop, .a-moveDown.-loop, .a-moveLoop.-loop, .a-scOutImg.-loop, .a-underLine.-loop, .a-imgMono.-loop, .a-imgColor.-loop, .a-imgChange .no1.-loop, .a-imgChange .no2.-loop, .a-imgChange .no3.-loop, .a-fade-blur.-loop, .a-bird_r.-loop, .a-bird_l01.-loop, .a-bird_l02.-loop, .a-purupuru.-loop, .a-fviewOutImg.-loop, .a-fviewInImg.-loop {
   animation-iteration-count: infinite;

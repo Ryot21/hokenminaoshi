@@ -225,44 +225,52 @@
 
 
             // --------- スクロール化 ---------
-            &.-sc-auto{
+            &.-sc-exit{
                 animation-timeline: view();
-                animation-range: entry 0% contain 30%;
+                animation-range: exit 0% exit 25%;
                 &::after,img{
                     animation-timeline: view();
-                    animation-range: entry 0% contain 30%;
+                    animation-range: exit 0% exit 25%;
                 }
             }
-            &.-sc1{
+            &.-sc-entry-cs{
                 animation-timeline: view();
-                animation-range: entry 10% contain 35%;
+                animation-range: entry-crossing 0% entry-crossing 25%;
                 &::after,img{
                     animation-timeline: view();
-                    animation-range: entry 10% contain 35%;
+                    animation-range: entry-crossing 0% entry-crossing 25%;
                 }
             }
-            &.-sc2{
+            &.-sc-exit-cs{
                 animation-timeline: view();
-                animation-range: entry 15% contain 40%;
+                animation-range: exit-crossing 0% exit-crossing 25%;
                 &::after,img{
                     animation-timeline: view();
-                    animation-range: entry 15% contain 40%;
+                    animation-range: exit-crossing 0% exit-crossing 25%;
                 }
             }
-            &.-sc3{
+            &.-sc-contain{
                 animation-timeline: view();
-                animation-range: entry 20% contain 45%;
+                animation-range: contain 0% contain 25%;
                 &::after,img{
                     animation-timeline: view();
-                    animation-range: entry 20% contain 45%;
+                    animation-range: contain 0% contain 25%;
                 }
             }
-            &.-sc4{
+            &.-sc-cover{
                 animation-timeline: view();
-                animation-range: entry 25% contain 50%;
+                animation-range: cover 0% cover 25%;
                 &::after,img{
                     animation-timeline: view();
-                    animation-range: entry 25% contain 50%;
+                    animation-range: cover 0% cover 25%;
+                }
+            }
+            &.-sc-entry{
+                animation-timeline: view();
+                animation-range: cover 0% cover 25%;
+                &::after,img{
+                    animation-timeline: view();
+                    animation-range: entry 0% entry 25%;
                 }
             }
 

@@ -72,8 +72,8 @@
     // コンテンツ_カラム（sp:2 pc:3）
     &.-col2_3{
         .flexItem{// li
-            width: 48.5%;
-            @include min(768){width: 32%;}
+            width: 50%;
+            @include min(768){width: 33.3333%;}
         }
     }
     // コンテンツカラム（sp:pc 2:4）

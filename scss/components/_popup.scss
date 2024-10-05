@@ -193,7 +193,7 @@
         width: 85%;
         background: $main-color--w;
         border-radius: 10px;
-        padding: 10px;
+        // padding: 10px;
         @include min(768){
             width: 75%;
             max-width: 1000px;

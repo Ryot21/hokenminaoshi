@@ -2,11 +2,10 @@
 .c-footer{
 	width: 100vw;
 	height: auto;
-	background: #000000;
+	background: $main-color--b;
 	padding: 5px;
 	@include max(768){
 		padding: 10px;
-		margin-bottom: 5.5lvh;
 	}
 	&-wrapper{
 		align-items: center;

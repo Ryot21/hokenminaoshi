@@ -207,15 +207,25 @@
         <!-- #03 インプレームが選ばれる理由 -->
         <div id="c03" class="c-contents -bg-lightBlue01">
             <div class="c-contents-inner">
-                <div class="c-contents -imgBg">
-                    <div class="imgBox">
-                        <img class="tb-pc" src="images/bg/contents03-bg.png"   alt="それ...すぐに解決できます！">
-                        <img class="sp"    src="images/bg/contents03-bg_s.png" alt="それ...すぐに解決できます！">
+                <div class="c-contents -imgBg -bg -c03">
+                    <div class="Bg">
+                        <!-- <img class="tb-pc" src="images/bg/contents03-bg.png"   alt="それ...すぐに解決できます！"> -->
+                        <!-- <img class="sp"    src="images/bg/contents03-bg_s.png" alt="それ...すぐに解決できます！"> -->
+                    </div>
+                    <div class="c-contentsBox -contents03-text"><!-- それ... -->
+                        <div class="imgBox">
+                            <img class="tb-pc" src="images/item/contents03-text.png"   alt="それ...インプレームなら解決できます！">
+                            <img class="sp"    src="images/item/contents03-text_s.png" alt="それ...インプレームなら解決できます！">
+                        </div>
+                    </div>
+                    <div class="c-contentsBox -contents03-item01-woman"><!-- 顧客満足度 > 女性 -->
+                        <div class="imgBox">
+                            <img src="images/item/contents03-item01-woman.png"  alt="インプレーム専属のFP">
+                        </div>
                     </div>
                     <div class="c-contentsBox -contents03-item01"><!-- 顧客満足度 -->
                         <div class="imgBox a-moveUp -sc-entry">
-                            <img class="tb-pc" src="images/item/contents03-item01.png"  alt="ご相談後...お客様満足度96.1%以上">
-                            <img class="sp"    src="images/item/contents03-item01s.png" alt="ご相談後...お客様満足度96.1%以上">
+                            <img src="images/item/contents03-item01.png"  alt="ご相談後...お客様満足度96.1%以上">
                         </div>
                     </div>
                     <div class="c-contentsBox -contents03-item02"><!-- インプレームが選ばれる理由 -->
@@ -244,6 +254,50 @@
                             <img src="images/item/contents03-item06.png" alt="ご夫婦">
                         </div>
                     </div>
+
+                    <!-- Google口コミ -->
+                    <div class="c-contentsBox -contents03-GoogleSlider">
+                        <h2 class="s-LL -b -color02 -center -ls-2 pdb1 pdb1s">お客様<span class="s-L -s20 -b -color02">の</span>声</h2>
+                        <div class="imgBox w30 w50s pdb3 pdb3s"><img src="images/item/contents03-sliderTitle.png" alt="4.8 10件のレビュー"></div>
+                        <!-- スライダー + popup -->
+                        <div class="swiper swiper-Google pdb5 pdb10s">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google01.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google01.png" alt="Google口コミ1"/>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google02.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google02.png" alt="Google口コミ2"/>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google03.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google03.png" alt="Google口コミ3"/>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google04.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google04.png" alt="Google口コミ4"/>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google05.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google05.png" alt="Google口コミ5"/>
+                                    <!-- </a> -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <!-- <a href="images/slider/google06.png" class="luminous" data-lightbox="popup-pic_Google" data-title=""> -->
+                                        <img src="images/slider/google06.png" alt="Google口コミ6"/>
+                                    <!-- </a> -->
+                                </li>
+                            </ul>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -257,108 +311,6 @@
                 <div class="c-contentsBox -contents04-title">
                     <h2 class="s-LL -b -color02 -center -ls-2">ご利用<span class="s-L -s20 -b -color02">までの</span>流れ</h2>
                 </div>
-                <!-- <div class="c-contentsBox -flowItem -flowItem01">
-                    <ul class="c-flex -col1_2 -pc2_1 -jc-sb">
-                        <li class="flexItem mgb5s">
-                            <div class="selif -no1 mgb2 mgb1s ">
-                                <div class="imgBox ">
-                                    <img src="images/item/flow/flow-selif.png" alt="吹き出し">
-                                </div>
-                            </div>
-                            <h3 class="s-L -s20 -b -color02 -ls-1 mgb3 mgb2s">お問い合わせ受付</h3>
-                            <p class="s-M -b -lh-1_5 -ls-2">
-                                まずは、サイト内から弊社の公式LINEアカウントを「友だち登録」していただき、「ご相談の予約」をしていただきます。
-                            </p>
-                        </li>
-                        <li class="flexItem">
-                            <div class="imgBox c-img -shadow">
-                                <img src="images/pic/flow01.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="c-contentsBox -flowItem -flowItem02">
-                    <ul class="c-flex -col1_2 -pc2_1 -r -jc-sb">
-                        <li class="flexItem mgb5s">
-                            <div class="selif -no2 imgBox mgb2 mgb1s">
-                                <div class="imgBox a-moveUp -sc3">
-                                    <img src="images/item/flow-selif.png" alt="吹き出し">
-                                </div>
-                            </div>
-                            <h3 class="s-L -s20 -b -color02 -ls-1 mgb3 mgb2s">お電話<span class="s-ML -b -color02 -ls-1">での</span>ヒアリング</h3>
-                            <p class="s-M -b -lh-1_5 -ls-2">
-                                5~10分で簡単なヒアリングを行います。<br>
-                                その際にご相談の内容を簡単にお伝えください。
-                            </p>
-                        </li>
-                        <li class="flexItem">
-                            <div class="imgBox c-img -shadow">
-                                <img src="images/pic/flow02.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="c-contentsBox -flowItem -flowItem03">
-                    <ul class="c-flex -col1_2 -pc2_1 -jc-sb">
-                        <li class="flexItem mgb5s">
-                            <div class="selif -no3 imgBox mgb2 mgb1s">
-                                <div class="imgBox a-moveUp -sc3">
-                                    <img src="images/item/flow-selif.png" alt="吹き出し">
-                                </div>
-                            </div>
-                            <h3 class="s-L -s20 -b -color02 -ws-n mgb3 mgb2s">お客様<span class="s-ML -s14 -color02">に</span>ピッタリ<span class="s-ML -s14 -b -color02">の</span>FP<span class="s-ML -s14 -b -color02">に</span>お繋ぎします。
-                            </h3>
-                            <p class="s-M -b -lh-1_5 -ls-2">
-                                弊社専属の業界平均10年以上のファインナンシャルプランナーが、ご対応いたします。まだ気づいていないような問題点を必ず見つけ出し、ご相談者様一人ひとりにピッタリのプランをご提案致します。
-                            </p>
-                        </li>
-                        <li class="flexItem">
-                            <div class="imgBox c-img -shadow">
-                                <img src="images/pic/flow03.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="c-contentsBox -flowItem -flowItem04">
-                    <ul class="c-flex -col1_2 -pc2_1 -r -jc-sb">
-                        <li class="flexItem mgb5s">
-                            <div class="selif -no4 imgBox mgb2 mgb1s">
-                                <div class="imgBox a-moveUp -sc3">
-                                    <img src="images/item/flow-selif.png" alt="吹き出し">
-                                </div>
-                            </div>
-                            <h3 class="s-L -s20 -b -color02 -ls-1 mgb3 mgb2s">ご契約<span class="s-ML -b -color02">までの</span>サポート</h3>
-                            <p class="s-M -b -lh-1_5 -ls-2">
-                                お客様に安心していただけるよう、初回のご相談から契約後まで丁寧にサポート致します。ご要望に応じて対面・オンライン両方対応可能です。
-                            </p>
-                        </li>
-                        <li class="flexItem">
-                            <div class="imgBox c-img -shadow">
-                                <img src="images/pic/flow04.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="c-contentsBox -flowItem -flowItem05">
-                    <ul class="c-flex -col1_2 -pc2_1 -jc-sb">
-                        <li class="flexItem mgb5s">
-                            <div class="selif -no5 imgBox mgb2 mgb1s">
-                                <div class="imgBox a-moveUp -sc3">
-                                    <img src="images/item/flow-selif.png" alt="吹き出し">
-                                </div>
-                            </div>
-                            <h3 class="s-L -s20 -b -color02 -ws-n mgb3 mgb2s">充実<span class="s-ML -s14 -color02">の</span>アフターサポート</h3>
-                            <p class="s-M -b -lh-1_5 -ls-2">
-                                ご契約後もお客様一人ひとりに弊社専属のファイナンシャルプランナーを担当としてお付けします。最新のご状況やご要望を反映していくことで、常にご相談者様に付き添ったサービスをご提供致します。
-                            </p>
-                        </li>
-                        <li class="flexItem">
-                            <div class="imgBox c-img -shadow">
-                                <img src="images/pic/flow05.png" alt="">
-                            </div>
-                        </li>
-                    </ul>
-                </div> -->
                 <div class="c-contentsBox -flowItem -flowItem-1007">
                     <ul class="c-flex -col2_3 -jc-st">
                         <li class="flexItem mgb3 mgb3s "><div class=""><img src="images/item/flow/flow01-PC.png" alt="No.1 お問い合わせ"></div></li>
@@ -567,23 +519,36 @@
     <!--------------------// 固定アイテム -------------------->
 
     <script>
-        // トップページ > fristView
-        // const FviewSwiper = new Swiper(".swiper-Fview", {
-        //     effect: 'fade',
-        //     fadeEffect: {crossFade: true,},
-        //     speed: 3000,
-        //     autoplay: {
-        //         delay: 5000,
-        //         disableOnInteraction: false,
-        //         waitForTransition: true,
-        //     },
-        //     grabCursor: true,
-        //     followFinger: false,
-        //     pagination: {
-        //         el: '.swiper-Fview .swiper-pagination',
-        //         clickable: true,
-        //     },
-        // });
+        // トップページ > swiper-Google
+        const googleSwiper = new Swiper(".swiper-Google", {
+            effect: 'slide',
+            mousewheel: {
+                invert: false,
+            },
+            centeredSlides: true,
+            slidesPerView: 1.5,
+            fadeEffect: {crossFade: true,},
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+                waitForTransition: true,
+            },
+            grabCursor: true,
+            followFinger: false,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: '.swiper-Popup .swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {slidesPerView: 3,},
+                980: {slidesPerView: 3,},
+            }
+        });
 
         const popupSwiper = new Swiper(".swiper-Popup", {
             effect: 'slide',

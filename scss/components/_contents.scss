@@ -19,7 +19,6 @@
 	&.-bg-green{background: $site-color03;}
 	&.-bg-orange{background: $site-color04;}
 
-
 	&.-f-view{//ファーストビュー
 		position: relative;
 		overflow: hidden;
@@ -29,14 +28,25 @@
 		}
 	}
 
-
 	&.-imgBg{//背景画像
 		position: relative;
 		&.-bg{//背景画像が大きくなると、コンテンツが間延びしてしまう場合
-			// overflow: hidden;
-			&.-c02 .imgBox{@include min(768){max-height: 1000px;}}
-			&.-c04 .imgBox{@include min(768){max-height: 1980px;}}
-
+			&.-c02{
+				overflow: hidden;
+				.imgBox{@include min(768){max-height: 1000px;}}
+			}
+			&.-c03 .Bg{
+				height: 50%;
+				// max-height: 1000px;
+				min-height: 1280px;
+				@include min(768){min-height: 1340px;}
+				@include min(1100){min-height: 1740px;}
+				@include min(1200){min-height: 2080px;}
+				@include min(1600){min-height: 2310px;}
+			}
+			&.-c04{
+				.imgBox{@include min(768){min-height: 1980px;}}
+			}
 		}
 		.c-contentsBox{
 			position: absolute;
@@ -202,63 +212,109 @@
 				}
 			}
 			&.-contents03{
-				&-item01{//顧客満足度
-					top: 45%;
+				&-text{//それ...
+					top: 13%;
 					left: 50%;
 					transform: translate(-50%, -50%);
-					width: 100%;
+					width: 75%;
+					@include min(768){top: 10%;}
+					@include min(1600){top: 11%;}
+				}
+				&-item01{//セリフ > 顧客満足度
+					top: 30%;
+					left: 50%;
+					transform: translate(-28%, -50%);
+					width: 65%;
 					@include min(768){
-						top: 37%;
-						left: 64%;
+						top: 24.5%;
+						left: 47%;
 						width: 60%;
 					}
+					@include min(1600){top: 27%;}
 				}
-				&-item02{//インプレームが選ばれる理由
-					top: 78%;
+				&-item01-woman{//セリフ > 女性
+					top: 29%;
+					left: 19%;
+					transform: translate(-50%, -50%);
+					width: 27%;
+					@include min(768){
+						top: 23.5%;
+						left: 19%;
+						width: 20%;
+					}
+					@include min(1600){top: 26%;}
+					.imgBox{
+						position: relative;
+						&::after{
+							content: "インプレーム専属 ファイナンシャルプランナー";
+							font-size: .75rem;
+							color: $site-color02;
+							font-weight: bold;
+							text-align: center;
+							text-wrap: balance;
+							word-break: auto-phrase;
+							position: absolute;
+							bottom: -21%;
+							left: 55%;
+							transform: translateX(-50%);
+							@include min(768){
+								font-size: 1rem;
+								bottom: -17%;
+							}
+						}
+					}
+				}
+				&-item02{//セリフ > インプレームが選ばれる理由
+					top: 84.5%;
 					left: 50%;
 					transform: translate(-50%, -50%);
 					width: 100%;
-					@include min(768){
-						top: 70%;
-					}
+					@include min(768){top: 78%;}
+					@include min(1600){top: 79%;}
 				}
 				&-item03{//お金アイコン
-					top: 71%;
+					top: 78%;
 					left: 6.7%;
 					transform: translate(-50%, -50%);
 					width: 15%;	
-					@include min(768){
-						top: 61%;
-					}
+					@include min(768){top: 71%;}
+					@include min(1600){top: 74.5%;}
 				}
 				&-item04{//グラフアイコン
-					top: 80.5%;
+					top: 86%;
 					left: 94.5%;
 					transform: translate(-50%, -50%);
 					width: 14%;
-					@include min(768){
-						top: 78%;
-					}
+					@include min(768){top: 81%;}
+					@include min(1600){top: 86%;}
 				}
 				&-item05{//女性
-					top: 93.5%;
+					bottom: 0%;
 					left: 14.5%;
-					transform: translate(-50%, -50%);
+					transform: translateX(-50%);
 					width: 23%;
 					@include min(768){
-						top: 91.5%;
 						width: 21%;
 					}
 				}
 				&-item06{//ご夫婦
-					top: 93.5%;
+					bottom: 0%;
 					left: 82.5%;
-					transform: translate(-50%, -50%);
+					transform: translateX(-50%);
 					width: 30%;
 					@include min(768){
-						top: 91.5%;
 						width: 27%;
 					}
+				}
+
+				// Google口コミ
+				&-GoogleSlider{
+					top: 56%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 100%;
+					@include min(768){top: 46%;}
+					@include min(1600){top: 49.5%;}
 				}
 			}
 			&.-contents04{

@@ -45,7 +45,11 @@
 				@include min(1600){min-height: 2310px;}
 			}
 			&.-c04{
-				.imgBox{@include min(768){min-height: 1980px;}}
+				overflow: hidden;
+				.imgBox{@include min(768){max-height: 940px;}}
+			}
+			&.-campaign{
+				.imgBox{@include min(768){max-height: 750px;}}
 			}
 		}
 		.c-contentsBox{

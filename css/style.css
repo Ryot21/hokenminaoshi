@@ -4071,9 +4071,17 @@ button.swiper-pagination-bullet {
     min-height: 2310px;
   }
 }
+.c-contents.-imgBg.-bg.-c04 {
+  overflow: hidden;
+}
 @media (width >= 768px) {
   .c-contents.-imgBg.-bg.-c04 .imgBox {
-    min-height: 1980px;
+    max-height: 940px;
+  }
+}
+@media (width >= 768px) {
+  .c-contents.-imgBg.-bg.-campaign .imgBox {
+    max-height: 750px;
   }
 }
 .c-contents.-imgBg .c-contentsBox {

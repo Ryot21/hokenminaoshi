@@ -247,12 +247,13 @@
             }
             &.-delta{
                 &::after{
+                    display: block;
                     background-repeat: no-repeat;
                     width: 15px;
                     height: 15px;
                     @include min(768){
                         width: 25px;
-                        height: 30px;
+                        height: 25px;
                     }
                 }
             }
@@ -261,21 +262,21 @@
         // 三角のボタン
         &-prev{
             &.-delta{
-                @include min(768) {left: 30%;}
-                @include min(1000){left: 30%;}
+                left: 32%;
+                @include min(768) {left: 32%;}
                 &::after{
                     content: "";
-                    background-image: url(../images/slider/item/SVG/leftBtn.svg);
+                    background-image: url(../images/SVG/leftBtn.svg);
                 }
             }
         }
         &-next{
             &.-delta{
-                @include min(768) {right: 30%;}
-                @include min(1000){right: 30%;}
+                right: 30.5%;
+                @include min(768) {right: 30.5%;}
                 &::after{
                     content: "";
-                    background-image: url(../images/slider/item/SVG/rightBtn.svg);
+                    background-image: url(../images/SVG/rightBtn.svg);
                 }
             }
         }

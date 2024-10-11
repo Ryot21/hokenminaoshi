@@ -259,12 +259,14 @@
 						position: relative;
 						&::after{
 							content: "インプレーム専属 ファイナンシャルプランナー";
+							// width: 120%;
 							font-size: .75rem;
+							font-family: sans-serif;
 							color: $site-color02;
 							font-weight: bold;
 							text-align: center;
-							text-wrap: balance;
-							word-break: auto-phrase;
+							// text-wrap: balance;
+							word-break: keep-all;
 							position: absolute;
 							bottom: -25%;
 							left: 55%;

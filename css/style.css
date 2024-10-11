@@ -4372,11 +4372,11 @@ button.swiper-pagination-bullet {
 .c-contents.-imgBg .c-contentsBox.-contents03-item01-woman .imgBox::after {
   content: "インプレーム専属 ファイナンシャルプランナー";
   font-size: 0.75rem;
+  font-family: sans-serif;
   color: #194299;
   font-weight: bold;
   text-align: center;
-  text-wrap: balance;
-  word-break: auto-phrase;
+  word-break: keep-all;
   position: absolute;
   bottom: -25%;
   left: 55%;
